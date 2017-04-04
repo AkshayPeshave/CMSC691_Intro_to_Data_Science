@@ -1,0 +1,1049 @@
+Script started on Tue 18 Oct 2016 11:24:40 AM EDT
+]777;notify;Command completed;exit]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo dnf [5Pexitysudo dnf config-manager --enablerepo mysql56-communitydisablerepo mysql57-community
+[sudo] password for axxe: 
+Sorry, try again.
+[sudo] password for axxe: 
+]777;notify;Command completed;sudo dnf config-manager --disablerepo mysql57-community]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo dnf config-manager --disablerepo mysql57-community[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kysudo dnf config-manager --enablerepo mysql56-communitydisablerepo mysql57-community[1Penablerepo mysql56-community
+]777;notify;Command completed;sudo dnf config-manager --enablerepo mysql56-community]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sdu o[K[K[K[Kudo dnf repolist enabled | grep mysql
+[01;31m[Kmysql[m[K-connectors-community MySQL Connectors Community                         14
+[01;31m[Kmysql[m[K-tools-community      MySQL Tools Community                              10
+[01;31m[Kmysql[m[K57-community          MySQL 5.7 Community Server                         73
+]777;notify;Command completed;sudo dnf repolist enabled | grep mysql]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo dnf repolist enabled | grep mysqlconfig-manager --enablerepo mysql56-communitydisablerepo mysql57-community
+]777;notify;Command completed;sudo dnf config-manager --disablerepo mysql57-community]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo dnf config-manager --disablerepo mysql57-community[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Prepolist enabled | grep mysql
+[01;31m[Kmysql[m[K-connectors-community MySQL Connectors Community                         14
+[01;31m[Kmysql[m[K-tools-community      MySQL Tools Community                              10
+[01;31m[Kmysql[m[K57-community          MySQL 5.7 Community Server                         73
+]777;notify;Command completed;sudo dnf repolist enabled | grep mysql]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo dnf repolist enabled | grep mysqlconfig-manager --disablerepo mysql57-community[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Prepolist enabled | grep mysqlconfig-manager --enablerepo mysql56-community
+]777;notify;Command completed;sudo dnf config-manager --enablerepo mysql56-community]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo dnf config-manager --enablerepo mysql56-community[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Prepolist enabled | grep mysqlconfig-manager --disablerepo mysql57-community[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Prepolist enabled | grep mysqlconfig-manager --disablerepo mysql57-community[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Prepolist enabled | grep mysql
+[01;31m[Kmysql[m[K-connectors-community MySQL Connectors Community                         14
+[01;31m[Kmysql[m[K-tools-community      MySQL Tools Community                              10
+[01;31m[Kmysql[m[K57-community          MySQL 5.7 Community Server                         73
+]777;notify;Command completed;sudo dnf repolist enabled | grep mysql]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo yum install mysql-community-server[1P[1P[1P[1@d[1@n[1@f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-5.7.1
+mysql-community-server-5.7.13-1.fc24.x86_64
+mysql-community-server-5.7.14-1.fc24.x86_64
+mysql-community-server-5.7.15-1.fc24.x86_64
+mysql-community-server-5.7.16-1.fc24.x86_64
+[axxe@localhost ~]$ sudo dnf install mysql-community-server-5.7.1[K[K[K6[K7.1[K[K[K[K[K[K-5.7.1
+Last metadata expiration check: 1:35:43 ago on Tue Oct 18 09:51:41 2016.
+No package [1mmysql-community-server-5.7.1(B[m available.
+Error: Unable to find a match.
+]777;notify;Command completed;sudo dnf install mysql-community-server-5.7.1]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo dnf install mysql-community-server-5.7.1[K[K[K[K[K[K
+Last metadata expiration check: 1:35:48 ago on Tue Oct 18 09:51:41 2016.
+Dependencies resolved.
+================================================================================
+ Package                Arch   Version                  Repository         Size
+================================================================================
+Installing:
+ mecab                  x86_64 0.996-1.fc24.4           fedora            386 k
+ mecab-ipadic           x86_64 2.7.0.20070801-12.fc24.1 fedora             11 M
+ mysql-community-client x86_64 5.7.16-1.fc24            mysql57-community  25 M
+ mysql-community-common x86_64 5.7.16-1.fc24            mysql57-community 276 k
+ mysql-community-libs   x86_64 5.7.16-1.fc24            mysql57-community 2.2 M
+ mysql-community-server x86_64 5.7.16-1.fc24            mysql57-community 124 M
+
+Transaction Summary
+================================================================================
+Install  6 Packages
+
+Total download size: 163 M
+Installed size: 745 M
+Is this ok [y/N]: y
+Downloading Packages:
+(1/6): mysql-communi  0% [                    ] ---  B/s |   0  B     --:-- ETA(1-3/6): mecab-0.996  0% [                    ] 686 kB/s | 209 kB     04:02 ETA(1/6): mysql-community-common-5.7.16-1.fc24.x86 508 kB/s | 276 kB     00:00    
+(2-3/6): mecab-0.996  0% [                    ] 708 kB/s | 486 kB     03:54 ETA(2-4/6): mecab-0.996  0% [                    ] 738 kB/s | 850 kB     03:44 ETA(2/6): mecab-0.996-1.fc24.4.x86_64.rpm          384 kB/s | 386 kB     00:01    
+(3-4/6): mecab-ipadi  0% [                    ] 765 kB/s | 1.1 MB     03:36 ETA(3-5/6): mysql-commu  0% [                    ] 787 kB/s | 1.4 MB     03:29 ETA(3-5/6): mysql-commu  1% [                    ] 839 kB/s | 1.9 MB     03:16 ETA(3-5/6): mysql-commu  1% [                    ] 903 kB/s | 2.5 MB     03:01 ETA(3-5/6): mysql-commu  1% [                    ] 899 kB/s | 2.7 MB     03:02 ETA(3-5/6): mysql-commu  1% [                    ] 923 kB/s | 3.1 MB     02:57 ETA(3-5/6): mysql-commu  2% [                    ] 960 kB/s | 3.5 MB     02:49 ETA(3-5/6): mecab-ipadi  2% [                    ] 992 kB/s | 4.0 MB     02:43 ETA(3-5/6): mecab-ipadi  2% [-                   ] 963 kB/s | 4.1 MB     02:48 ETA(3-5/6): mecab-ipadi  2% [-                   ] 940 kB/s | 4.3 MB     02:52 ETA(3-5/6): mecab-ipadi  2% [-                   ] 940 kB/s | 4.6 MB     02:52 ETA(3-5/6): mysql-commu  2% [-                   ] 916 kB/s | 4.8 MB     02:56 ETA(3-5/6): mysql-commu  3% [-                   ] 896 kB/s | 5.0 MB     03:00 ETA(3-5/6): mysql-commu  3% [-                   ] 914 kB/s | 5.4 MB     02:56 ETA(3-5/6): mysql-commu  3% [-                   ] 920 kB/s | 5.7 MB     02:54 ETA(3-5/6): mysql-commu  3% [-                   ] 980 kB/s | 6.2 MB     02:43 ETA(3-5/6): mysql-commu  4% [-                   ] 1.0 MB/s | 6.8 MB     02:33 ETA(3-5/6): mecab-ipadi  4% [-                   ] 1.1 MB/s | 7.3 MB     02:27 ETA(3-5/6): mecab-ipadi  4% [-                   ] 1.0 MB/s | 7.5 MB     02:31 ETA(3-5/6): mecab-ipadi  4% [-                   ] 1.1 MB/s | 8.1 MB     02:24 ETA(3-5/6): mysql-commu  5% [=                   ] 1.1 MB/s | 8.4 MB     02:25 ETA(3-5/6): mysql-commu  5% [=                   ] 1.1 MB/s | 9.0 MB     02:17 ETA(3-5/6): mysql-commu  5% [=                   ] 1.2 MB/s | 9.7 MB     02:10 ETA(3-5/6): mysql-commu  6% [=                   ] 1.2 MB/s |  10 MB     02:05 ETA(3-5/6): mysql-commu  6% [=                   ] 1.3 MB/s |  11 MB     01:59 ETA(3-5/6): mysql-commu  7% [=                   ] 1.3 MB/s |  11 MB     01:55 ETA(3-5/6): mecab-ipadi  7% [=                   ] 1.3 MB/s |  12 MB     01:53 ETA(3-5/6): mecab-ipadi  7% [=-                  ] 1.3 MB/s |  12 MB     01:51 ETA(3-5/6): mecab-ipadi  8% [=-                  ] 1.4 MB/s |  13 MB     01:47 ETA(3-5/6): mecab-ipadi  8% [=-                  ] 1.4 MB/s |  14 MB     01:45 ETA(3-5/6): mysql-commu  8% [=-                  ] 1.4 MB/s |  14 MB     01:42 ETA(3-5/6): mysql-commu  9% [=-                  ] 1.5 MB/s |  15 MB     01:41 ETA(3-5/6): mysql-commu  9% [=-                  ] 1.5 MB/s |  15 MB     01:41 ETA(3-5/6): mysql-commu  9% [=-                  ] 1.5 MB/s |  16 MB     01:40 ETA(3-5/6): mysql-commu 10% [==                  ] 1.5 MB/s |  16 MB     01:37 ETA(3-5/6): mysql-commu 10% [==                  ] 1.5 MB/s |  17 MB     01:34 ETA(3-5/6): mecab-ipadi 10% [==                  ] 1.6 MB/s |  18 MB     01:31 ETA(3-5/6): mecab-ipadi 11% [==                  ] 1.7 MB/s |  18 MB     01:27 ETA(3-5/6): mecab-ipadi 11% [==                  ] 1.6 MB/s |  19 MB     01:29 ETA(3-5/6): mecab-ipadi 11% [==                  ] 1.6 MB/s |  19 MB     01:27 ETA(3-5/6): mysql-commu 12% [==                  ] 1.6 MB/s |  20 MB     01:27 ETA(3-5/6): mysql-commu 12% [==-                 ] 1.6 MB/s |  20 MB     01:26 ETA(3-5/6): mysql-commu 12% [==-                 ] 1.6 MB/s |  21 MB     01:27 ETA(3-5/6): mysql-commu 13% [==-                 ] 1.7 MB/s |  21 MB     01:25 ETA(3-5/6): mysql-commu 13% [==-                 ] 1.6 MB/s |  22 MB     01:25 ETA(3-5/6): mysql-commu 13% [==-                 ] 1.6 MB/s |  22 MB     01:27 ETA(3-5/6): mecab-ipadi 13% [==-                 ] 1.6 MB/s |  23 MB     01:29 ETA(3-5/6): mecab-ipadi 14% [==-                 ] 1.5 MB/s |  23 MB     01:31 ETA(3-5/6): mecab-ipadi 14% [==-                 ] 1.6 MB/s |  24 MB     01:29 ETA(3-5/6): mysql-commu 14% [==-                 ] 1.6 MB/s |  24 MB     01:27 ETA(3-5/6): mysql-commu 15% [===                 ] 1.6 MB/s |  25 MB     01:28 ETA(3-5/6): mysql-commu 15% [===                 ] 1.6 MB/s |  25 MB     01:28 ETA(3-5/6): mysql-commu 15% [===                 ] 1.6 MB/s |  26 MB     01:25 ETA(3-5/6): mysql-commu 16% [===                 ] 1.6 MB/s |  26 MB     01:24 ETA(3-5/6): mysql-commu 16% [===                 ] 1.6 MB/s |  27 MB     01:26 ETA(3-5/6): mecab-ipadi 16% [===                 ] 1.5 MB/s |  27 MB     01:27 ETA(3-5/6): mecab-ipadi 16% [===                 ] 1.6 MB/s |  28 MB     01:26 ETA(3-5/6): mecab-ipadi 17% [===                 ] 1.5 MB/s |  28 MB     01:28 ETA(3-5/6): mysql-commu 17% [===                 ] 1.5 MB/s |  28 MB     01:30 ETA(3-5/6): mysql-commu 17% [===                 ] 1.4 MB/s |  28 MB     01:34 ETA(3-5/6): mysql-commu 18% [===-                ] 1.6 MB/s |  30 MB     01:23 ETA(3-5/6): mysql-commu 18% [===-                ] 1.6 MB/s |  30 MB     01:21 ETA(3-5/6): mysql-commu 19% [===-                ] 1.7 MB/s |  31 MB     01:18 ETA(3-5/6): mysql-commu 19% [===-                ] 1.7 MB/s |  32 MB     01:17 ETA(3-5/6): mysql-commu 19% [===-                ] 1.7 MB/s |  32 MB     01:14 ETA(3-5/6): mecab-ipadi 20% [====                ] 1.7 MB/s |  33 MB     01:16 ETA(3-5/6): mecab-ipadi 20% [====                ] 1.7 MB/s |  33 MB     01:18 ETA(3-5/6): mecab-ipadi 20% [====                ] 1.7 MB/s |  34 MB     01:17 ETA(3-5/6): mysql-commu 20% [====                ] 1.6 MB/s |  34 MB     01:19 ETA(3-5/6): mysql-commu 21% [====                ] 1.6 MB/s |  34 MB     01:20 ETA(3-5/6): mysql-commu 21% [====                ] 1.5 MB/s |  34 MB     01:24 ETA(3-5/6): mysql-commu 21% [====                ] 1.5 MB/s |  35 MB     01:23 ETA(3-5/6): mysql-commu 21% [====                ] 1.5 MB/s |  35 MB     01:25 ETA(3-5/6): mysql-commu 21% [====                ] 1.5 MB/s |  35 MB     01:27 ETA(3-5/6): mysql-commu 21% [====                ] 1.4 MB/s |  36 MB     01:28 ETA(3-5/6): mecab-ipadi 22% [====                ] 1.4 MB/s |  36 MB     01:31 ETA(3-5/6): mecab-ipadi 22% [====                ] 1.4 MB/s |  36 MB     01:33 ETA(3-5/6): mecab-ipadi 22% [====-               ] 1.4 MB/s |  37 MB     01:28 ETA(3-5/6): mysql-commu 23% [====-               ] 1.5 MB/s |  38 MB     01:25 ETA(3-5/6): mysql-commu 23% [====-               ] 1.5 MB/s |  38 MB     01:23 ETA(3-5/6): mysql-commu 23% [====-               ] 1.5 MB/s |  39 MB     01:22 ETA(3-5/6): mysql-commu 24% [====-               ] 1.5 MB/s |  39 MB     01:22 ETA(3-5/6): mysql-commu 24% [====-               ] 1.5 MB/s |  39 MB     01:24 ETA(3-5/6): mysql-commu 24% [====-               ] 1.5 MB/s |  40 MB     01:24 ETA(3-5/6): mecab-ipadi 24% [====-               ] 1.4 MB/s |  40 MB     01:26 ETA(3-5/6): mecab-ipadi 24% [====-               ] 1.4 MB/s |  40 MB     01:28 ETA(3-5/6): mecab-ipadi 25% [=====               ] 1.4 MB/s |  41 MB     01:28 ETA(3-5/6): mecab-ipadi 25% [=====               ] 1.4 MB/s |  41 MB     01:27 ETA(3-5/6): mysql-commu 25% [=====               ] 1.4 MB/s |  42 MB     01:24 ETA(3-5/6): mysql-commu 25% [=====               ] 1.4 MB/s |  42 MB     01:26 ETA(3-5/6): mysql-commu 26% [=====               ] 1.4 MB/s |  43 MB     01:27 ETA(3-5/6): mysql-commu 26% [=====               ] 1.4 MB/s |  43 MB     01:27 ETA(3-5/6): mysql-commu 26% [=====               ] 1.3 MB/s |  43 MB     01:29 ETA(3-5/6): mysql-commu 27% [=====-              ] 1.6 MB/s |  45 MB     01:13 ETA(3-5/6): mecab-ipadi 28% [=====-              ] 1.7 MB/s |  46 MB     01:06 ETA(3-5/6): mecab-ipadi 28% [=====-              ] 1.8 MB/s |  47 MB     01:04 ETA(3-5/6): mecab-ipadi 28% [=====-              ] 1.7 MB/s |  47 MB     01:06 ETA(3/6): mecab-ipadic-2.7.0.20070801-12.fc24.1.x8 353 kB/s |  11 MB     00:30    
+(4-5/6): mysql-commu 29% [=====-              ] 1.7 MB/s |  47 MB     01:07 ETA(4-6/6): mysql-commu 29% [=====-              ] 1.7 MB/s |  48 MB     01:07 ETA(4-6/6): mysql-commu 29% [=====-              ] 1.7 MB/s |  49 MB     01:07 ETA(4-6/6): mysql-commu 30% [======              ] 1.7 MB/s |  49 MB     01:07 ETA(4-6/6): mysql-commu 30% [======              ] 1.6 MB/s |  49 MB     01:10 ETA(4-6/6): mysql-commu 30% [======              ] 1.6 MB/s |  50 MB     01:11 ETA(4-6/6): mysql-commu 30% [======              ] 1.6 MB/s |  50 MB     01:11 ETA(4-6/6): mysql-commu 31% [======              ] 1.6 MB/s |  51 MB     01:09 ETA(4-6/6): mysql-commu 31% [======              ] 1.6 MB/s |  51 MB     01:10 ETA(4-6/6): mysql-commu 31% [======              ] 1.6 MB/s |  52 MB     01:08 ETA(4-6/6): mysql-commu 32% [======              ] 1.7 MB/s |  53 MB     01:06 ETA(4/6): mysql-community-libs-5.7.16-1.fc24.x86_6 647 kB/s | 2.2 MB     00:03    
+(5-6/6): mysql-commu 32% [======-             ] 1.7 MB/s |  53 MB     01:05 ETA(5-6/6): mysql-commu 32% [======-             ] 1.7 MB/s |  54 MB     01:05 ETA(5-6/6): mysql-commu 33% [======-             ] 1.6 MB/s |  54 MB     01:06 ETA(5-6/6): mysql-commu 33% [======-             ] 1.7 MB/s |  55 MB     01:04 ETA(5-6/6): mysql-commu 33% [======-             ] 1.6 MB/s |  55 MB     01:05 ETA(5-6/6): mysql-commu 33% [======-             ] 1.6 MB/s |  55 MB     01:07 ETA(5-6/6): mysql-commu 34% [======-             ] 1.5 MB/s |  55 MB     01:12 ETA(5-6/6): mysql-commu 34% [======-             ] 1.5 MB/s |  56 MB     01:12 ETA(5-6/6): mysql-commu 34% [======-             ] 1.5 MB/s |  57 MB     01:10 ETA(5-6/6): mysql-commu 35% [=======             ] 1.5 MB/s |  57 MB     01:09 ETA(5-6/6): mysql-commu 35% [=======             ] 1.6 MB/s |  58 MB     01:07 ETA(5-6/6): mysql-commu 35% [=======             ] 1.6 MB/s |  58 MB     01:05 ETA(5-6/6): mysql-commu 36% [=======             ] 1.6 MB/s |  59 MB     01:04 ETA(5-6/6): mysql-commu 36% [=======             ] 1.6 MB/s |  60 MB     01:03 ETA(5-6/6): mysql-commu 36% [=======             ] 1.6 MB/s |  60 MB     01:02 ETA(5-6/6): mysql-commu 37% [=======             ] 1.6 MB/s |  60 MB     01:04 ETA(5-6/6): mysql-commu 37% [=======             ] 1.6 MB/s |  61 MB     01:04 ETA(5-6/6): mysql-commu 37% [=======-            ] 1.6 MB/s |  62 MB     01:02 ETA(5-6/6): mysql-commu 38% [=======-            ] 1.6 MB/s |  62 MB     01:03 ETA(5-6/6): mysql-commu 38% [=======-            ] 1.6 MB/s |  62 MB     01:04 ETA(5-6/6): mysql-commu 38% [=======-            ] 1.5 MB/s |  63 MB     01:04 ETA(5-6/6): mysql-commu 38% [=======-            ] 1.5 MB/s |  63 MB     01:05 ETA(5-6/6): mysql-commu 39% [=======-            ] 1.6 MB/s |  64 MB     01:02 ETA(5-6/6): mysql-commu 39% [=======-            ] 1.6 MB/s |  64 MB     01:01 ETA(5-6/6): mysql-commu 39% [=======-            ] 1.6 MB/s |  65 MB     00:59 ETA(5-6/6): mysql-commu 40% [========            ] 1.6 MB/s |  66 MB     00:59 ETA(5-6/6): mysql-commu 40% [========            ] 1.6 MB/s |  66 MB     00:58 ETA(5-6/6): mysql-commu 40% [========            ] 1.6 MB/s |  66 MB     00:59 ETA(5-6/6): mysql-commu 41% [========            ] 1.6 MB/s |  67 MB     01:00 ETA(5-6/6): mysql-commu 41% [========            ] 1.6 MB/s |  67 MB     00:59 ETA(5/6): mysql-community-client-5.7.16-1.fc24.x86 594 kB/s |  25 MB     00:43    
+(6/6): mysql-communi 41% [========            ] 1.6 MB/s |  68 MB     00:58 ETA(6/6): mysql-communi 42% [========            ] 1.6 MB/s |  68 MB     00:58 ETA(6/6): mysql-communi 42% [========            ] 1.6 MB/s |  69 MB     00:59 ETA(6/6): mysql-communi 42% [========-           ] 1.6 MB/s |  69 MB     01:00 ETA(6/6): mysql-communi 42% [========-           ] 1.6 MB/s |  70 MB     01:00 ETA(6/6): mysql-communi 42% [========-           ] 1.5 MB/s |  70 MB     01:02 ETA(6/6): mysql-communi 43% [========-           ] 1.5 MB/s |  71 MB     01:00 ETA(6/6): mysql-communi 43% [========-           ] 1.5 MB/s |  71 MB     01:00 ETA(6/6): mysql-communi 43% [========-           ] 1.5 MB/s |  71 MB     01:00 ETA(6/6): mysql-communi 44% [========-           ] 1.5 MB/s |  72 MB     01:00 ETA(6/6): mysql-communi 44% [========-           ] 1.5 MB/s |  72 MB     00:59 ETA(6/6): mysql-communi 44% [========-           ] 1.5 MB/s |  73 MB     01:00 ETA(6/6): mysql-communi 44% [========-           ] 1.5 MB/s |  73 MB     01:01 ETA(6/6): mysql-communi 45% [=========           ] 1.5 MB/s |  73 MB     01:01 ETA(6/6): mysql-communi 45% [=========           ] 1.5 MB/s |  74 MB     01:00 ETA(6/6): mysql-communi 45% [=========           ] 1.5 MB/s |  74 MB     00:59 ETA(6/6): mysql-communi 45% [=========           ] 1.5 MB/s |  75 MB     01:00 ETA(6/6): mysql-communi 46% [=========           ] 1.4 MB/s |  75 MB     01:00 ETA(6/6): mysql-communi 46% [=========           ] 1.4 MB/s |  75 MB     01:01 ETA(6/6): mysql-communi 46% [=========           ] 1.4 MB/s |  76 MB     01:01 ETA(6/6): mysql-communi 46% [=========           ] 1.4 MB/s |  76 MB     01:00 ETA(6/6): mysql-communi 47% [=========           ] 1.4 MB/s |  77 MB     01:01 ETA(6/6): mysql-communi 47% [=========           ] 1.4 MB/s |  77 MB     00:59 ETA(6/6): mysql-communi 47% [=========-          ] 1.4 MB/s |  78 MB     00:59 ETA(6/6): mysql-communi 47% [=========-          ] 1.4 MB/s |  78 MB     01:00 ETA(6/6): mysql-communi 48% [=========-          ] 1.4 MB/s |  79 MB     00:58 ETA(6/6): mysql-communi 48% [=========-          ] 1.4 MB/s |  79 MB     00:58 ETA(6/6): mysql-communi 48% [=========-          ] 1.5 MB/s |  80 MB     00:56 ETA(6/6): mysql-communi 49% [=========-          ] 1.5 MB/s |  80 MB     00:55 ETA(6/6): mysql-communi 49% [=========-          ] 1.5 MB/s |  81 MB     00:53 ETA(6/6): mysql-communi 49% [=========-          ] 1.5 MB/s |  81 MB     00:55 ETA(6/6): mysql-communi 50% [==========          ] 1.5 MB/s |  82 MB     00:53 ETA(6/6): mysql-communi 50% [==========          ] 1.5 MB/s |  82 MB     00:53 ETA(6/6): mysql-communi 50% [==========          ] 1.5 MB/s |  82 MB     00:54 ETA(6/6): mysql-communi 50% [==========          ] 1.5 MB/s |  83 MB     00:53 ETA(6/6): mysql-communi 51% [==========          ] 1.5 MB/s |  83 MB     00:53 ETA(6/6): mysql-communi 51% [==========          ] 1.5 MB/s |  84 MB     00:52 ETA(6/6): mysql-communi 51% [==========          ] 1.5 MB/s |  85 MB     00:51 ETA(6/6): mysql-communi 52% [==========          ] 1.5 MB/s |  85 MB     00:50 ETA(6/6): mysql-communi 52% [==========-         ] 1.5 MB/s |  86 MB     00:50 ETA(6/6): mysql-communi 52% [==========-         ] 1.5 MB/s |  86 MB     00:52 ETA(6/6): mysql-communi 52% [==========-         ] 1.4 MB/s |  86 MB     00:52 ETA(6/6): mysql-communi 53% [==========-         ] 1.4 MB/s |  87 MB     00:53 ETA(6/6): mysql-communi 53% [==========-         ] 1.5 MB/s |  87 MB     00:52 ETA(6/6): mysql-communi 53% [==========-         ] 1.5 MB/s |  88 MB     00:51 ETA(6/6): mysql-communi 54% [==========-         ] 1.5 MB/s |  88 MB     00:51 ETA(6/6): mysql-communi 54% [==========-         ] 1.4 MB/s |  88 MB     00:52 ETA(6/6): mysql-communi 54% [==========-         ] 1.4 MB/s |  89 MB     00:52 ETA(6/6): mysql-communi 54% [==========-         ] 1.3 MB/s |  89 MB     00:56 ETA(6/6): mysql-communi 54% [==========-         ] 1.3 MB/s |  90 MB     00:55 ETA(6/6): mysql-communi 55% [===========         ] 1.3 MB/s |  90 MB     00:57 ETA(6/6): mysql-communi 55% [===========         ] 1.3 MB/s |  90 MB     00:57 ETA(6/6): mysql-communi 55% [===========         ] 1.3 MB/s |  90 MB     00:57 ETA(6/6): mysql-communi 55% [===========         ] 1.2 MB/s |  91 MB     00:57 ETA(6/6): mysql-communi 56% [===========         ] 1.3 MB/s |  91 MB     00:56 ETA(6/6): mysql-communi 56% [===========         ] 1.3 MB/s |  92 MB     00:56 ETA(6/6): mysql-communi 56% [===========         ] 1.3 MB/s |  92 MB     00:53 ETA(6/6): mysql-communi 56% [===========         ] 1.3 MB/s |  93 MB     00:52 ETA(6/6): mysql-communi 57% [===========         ] 1.3 MB/s |  93 MB     00:53 ETA(6/6): mysql-communi 57% [===========         ] 1.3 MB/s |  94 MB     00:51 ETA(6/6): mysql-communi 57% [===========-        ] 1.3 MB/s |  94 MB     00:51 ETA(6/6): mysql-communi 57% [===========-        ] 1.3 MB/s |  94 MB     00:51 ETA(6/6): mysql-communi 58% [===========-        ] 1.3 MB/s |  95 MB     00:51 ETA(6/6): mysql-communi 58% [===========-        ] 1.4 MB/s |  95 MB     00:49 ETA(6/6): mysql-communi 58% [===========-        ] 1.4 MB/s |  96 MB     00:49 ETA(6/6): mysql-communi 59% [===========-        ] 1.3 MB/s |  96 MB     00:49 ETA(6/6): mysql-communi 59% [===========-        ] 1.4 MB/s |  97 MB     00:48 ETA(6/6): mysql-communi 59% [===========-        ] 1.4 MB/s |  97 MB     00:47 ETA(6/6): mysql-communi 59% [===========-        ] 1.4 MB/s |  98 MB     00:46 ETA(6/6): mysql-communi 60% [============        ] 1.4 MB/s |  98 MB     00:45 ETA(6/6): mysql-communi 60% [============        ] 1.4 MB/s |  99 MB     00:45 ETA(6/6): mysql-communi 60% [============        ] 1.4 MB/s |  99 MB     00:44 ETA(6/6): mysql-communi 61% [============        ] 1.5 MB/s | 100 MB     00:42 ETA(6/6): mysql-communi 61% [============        ] 1.5 MB/s | 100 MB     00:41 ETA(6/6): mysql-communi 61% [============        ] 1.5 MB/s | 101 MB     00:41 ETA(6/6): mysql-communi 62% [============        ] 1.5 MB/s | 101 MB     00:41 ETA(6/6): mysql-communi 62% [============-       ] 1.5 MB/s | 102 MB     00:40 ETA(6/6): mysql-communi 62% [============-       ] 1.5 MB/s | 102 MB     00:39 ETA(6/6): mysql-communi 63% [============-       ] 1.5 MB/s | 103 MB     00:39 ETA(6/6): mysql-communi 63% [============-       ] 1.5 MB/s | 103 MB     00:40 ETA(6/6): mysql-communi 63% [============-       ] 1.4 MB/s | 103 MB     00:41 ETA(6/6): mysql-communi 63% [============-       ] 1.4 MB/s | 104 MB     00:40 ETA(6/6): mysql-communi 64% [============-       ] 1.5 MB/s | 104 MB     00:39 ETA(6/6): mysql-communi 64% [============-       ] 1.4 MB/s | 105 MB     00:40 ETA(6/6): mysql-communi 64% [============-       ] 1.4 MB/s | 105 MB     00:40 ETA(6/6): mysql-communi 64% [============-       ] 1.4 MB/s | 106 MB     00:39 ETA(6/6): mysql-communi 65% [=============       ] 1.4 MB/s | 106 MB     00:39 ETA(6/6): mysql-communi 65% [=============       ] 1.5 MB/s | 107 MB     00:37 ETA(6/6): mysql-communi 65% [=============       ] 1.5 MB/s | 107 MB     00:37 ETA(6/6): mysql-communi 66% [=============       ] 1.5 MB/s | 108 MB     00:35 ETA(6/6): mysql-communi 66% [=============       ] 1.6 MB/s | 108 MB     00:34 ETA(6/6): mysql-communi 66% [=============       ] 1.6 MB/s | 109 MB     00:33 ETA(6/6): mysql-communi 67% [=============       ] 1.6 MB/s | 110 MB     00:32 ETA(6/6): mysql-communi 67% [=============-      ] 1.7 MB/s | 110 MB     00:31 ETA(6/6): mysql-communi 68% [=============-      ] 1.6 MB/s | 111 MB     00:31 ETA(6/6): mysql-communi 68% [=============-      ] 1.6 MB/s | 111 MB     00:31 ETA(6/6): mysql-communi 68% [=============-      ] 1.7 MB/s | 112 MB     00:30 ETA(6/6): mysql-communi 69% [=============-      ] 1.7 MB/s | 113 MB     00:30 ETA(6/6): mysql-communi 69% [=============-      ] 1.7 MB/s | 113 MB     00:29 ETA(6/6): mysql-communi 69% [=============-      ] 1.7 MB/s | 114 MB     00:28 ETA(6/6): mysql-communi 70% [==============      ] 1.7 MB/s | 114 MB     00:29 ETA(6/6): mysql-communi 70% [==============      ] 1.7 MB/s | 115 MB     00:28 ETA(6/6): mysql-communi 70% [==============      ] 1.7 MB/s | 115 MB     00:28 ETA(6/6): mysql-communi 71% [==============      ] 1.6 MB/s | 116 MB     00:28 ETA(6/6): mysql-communi 71% [==============      ] 1.7 MB/s | 116 MB     00:27 ETA(6/6): mysql-communi 71% [==============      ] 1.7 MB/s | 117 MB     00:27 ETA(6/6): mysql-communi 72% [==============      ] 1.6 MB/s | 117 MB     00:27 ETA(6/6): mysql-communi 72% [==============      ] 1.6 MB/s | 118 MB     00:27 ETA(6/6): mysql-communi 72% [==============-     ] 1.6 MB/s | 118 MB     00:27 ETA(6/6): mysql-communi 72% [==============-     ] 1.6 MB/s | 119 MB     00:27 ETA(6/6): mysql-communi 73% [==============-     ] 1.6 MB/s | 119 MB     00:26 ETA(6/6): mysql-communi 73% [==============-     ] 1.6 MB/s | 119 MB     00:27 ETA(6/6): mysql-communi 73% [==============-     ] 1.6 MB/s | 120 MB     00:26 ETA(6/6): mysql-communi 73% [==============-     ] 1.6 MB/s | 120 MB     00:26 ETA(6/6): mysql-communi 74% [==============-     ] 1.6 MB/s | 121 MB     00:26 ETA(6/6): mysql-communi 74% [==============-     ] 1.6 MB/s | 121 MB     00:26 ETA(6/6): mysql-communi 74% [==============-     ] 1.5 MB/s | 122 MB     00:27 ETA(6/6): mysql-communi 74% [==============-     ] 1.5 MB/s | 122 MB     00:27 ETA(6/6): mysql-communi 75% [===============     ] 1.5 MB/s | 122 MB     00:26 ETA(6/6): mysql-communi 75% [===============     ] 1.6 MB/s | 123 MB     00:25 ETA(6/6): mysql-communi 75% [===============     ] 1.6 MB/s | 124 MB     00:24 ETA(6/6): mysql-communi 76% [===============     ] 1.5 MB/s | 124 MB     00:25 ETA(6/6): mysql-communi 76% [===============     ] 1.5 MB/s | 125 MB     00:24 ETA(6/6): mysql-communi 76% [===============     ] 1.5 MB/s | 125 MB     00:25 ETA(6/6): mysql-communi 76% [===============     ] 1.5 MB/s | 125 MB     00:25 ETA(6/6): mysql-communi 77% [===============     ] 1.5 MB/s | 126 MB     00:24 ETA(6/6): mysql-communi 77% [===============-    ] 1.5 MB/s | 126 MB     00:23 ETA(6/6): mysql-communi 77% [===============-    ] 1.5 MB/s | 127 MB     00:23 ETA(6/6): mysql-communi 78% [===============-    ] 1.5 MB/s | 127 MB     00:23 ETA(6/6): mysql-communi 78% [===============-    ] 1.5 MB/s | 128 MB     00:23 ETA(6/6): mysql-communi 78% [===============-    ] 1.5 MB/s | 128 MB     00:23 ETA(6/6): mysql-communi 79% [===============-    ] 1.5 MB/s | 129 MB     00:22 ETA(6/6): mysql-communi 79% [===============-    ] 1.5 MB/s | 129 MB     00:23 ETA(6/6): mysql-communi 79% [===============-    ] 1.4 MB/s | 129 MB     00:23 ETA(6/6): mysql-communi 79% [===============-    ] 1.4 MB/s | 130 MB     00:23 ETA(6/6): mysql-communi 79% [===============-    ] 1.4 MB/s | 130 MB     00:22 ETA(6/6): mysql-communi 80% [================    ] 1.4 MB/s | 130 MB     00:23 ETA(6/6): mysql-communi 80% [================    ] 1.5 MB/s | 131 MB     00:21 ETA(6/6): mysql-communi 80% [================    ] 1.5 MB/s | 131 MB     00:21 ETA(6/6): mysql-communi 81% [================    ] 1.5 MB/s | 132 MB     00:20 ETA(6/6): mysql-communi 81% [================    ] 1.5 MB/s | 133 MB     00:20 ETA(6/6): mysql-communi 81% [================    ] 1.5 MB/s | 133 MB     00:20 ETA(6/6): mysql-communi 81% [================    ] 1.5 MB/s | 133 MB     00:20 ETA(6/6): mysql-communi 82% [================    ] 1.5 MB/s | 134 MB     00:19 ETA(6/6): mysql-communi 82% [================-   ] 1.5 MB/s | 135 MB     00:18 ETA(6/6): mysql-communi 82% [================-   ] 1.5 MB/s | 135 MB     00:19 ETA(6/6): mysql-communi 83% [================-   ] 1.5 MB/s | 135 MB     00:18 ETA(6/6): mysql-communi 83% [================-   ] 1.5 MB/s | 136 MB     00:18 ETA(6/6): mysql-communi 83% [================-   ] 1.5 MB/s | 136 MB     00:17 ETA(6/6): mysql-communi 83% [================-   ] 1.5 MB/s | 137 MB     00:17 ETA(6/6): mysql-communi 84% [================-   ] 1.5 MB/s | 137 MB     00:17 ETA(6/6): mysql-communi 84% [================-   ] 1.5 MB/s | 138 MB     00:17 ETA(6/6): mysql-communi 84% [================-   ] 1.5 MB/s | 138 MB     00:16 ETA(6/6): mysql-communi 85% [=================   ] 1.5 MB/s | 139 MB     00:16 ETA(6/6): mysql-communi 85% [=================   ] 1.5 MB/s | 139 MB     00:15 ETA(6/6): mysql-communi 85% [=================   ] 1.6 MB/s | 140 MB     00:14 ETA(6/6): mysql-communi 86% [=================   ] 1.5 MB/s | 140 MB     00:14 ETA(6/6): mysql-communi 86% [=================   ] 1.5 MB/s | 141 MB     00:14 ETA(6/6): mysql-communi 86% [=================   ] 1.6 MB/s | 141 MB     00:13 ETA(6/6): mysql-communi 87% [=================   ] 1.6 MB/s | 142 MB     00:13 ETA(6/6): mysql-communi 87% [=================-  ] 1.6 MB/s | 143 MB     00:12 ETA(6/6): mysql-communi 87% [=================-  ] 1.6 MB/s | 143 MB     00:12 ETA(6/6): mysql-communi 88% [=================-  ] 1.6 MB/s | 143 MB     00:12 ETA(6/6): mysql-communi 88% [=================-  ] 1.6 MB/s | 144 MB     00:11 ETA(6/6): mysql-communi 88% [=================-  ] 1.6 MB/s | 145 MB     00:11 ETA(6/6): mysql-communi 89% [=================-  ] 1.7 MB/s | 145 MB     00:10 ETA(6/6): mysql-communi 89% [=================-  ] 1.6 MB/s | 146 MB     00:10 ETA(6/6): mysql-communi 89% [=================-  ] 1.7 MB/s | 146 MB     00:09 ETA(6/6): mysql-communi 90% [==================  ] 1.6 MB/s | 147 MB     00:09 ETA(6/6): mysql-communi 90% [==================  ] 1.7 MB/s | 148 MB     00:09 ETA(6/6): mysql-communi 90% [==================  ] 1.6 MB/s | 148 MB     00:09 ETA(6/6): mysql-communi 90% [==================  ] 1.5 MB/s | 148 MB     00:09 ETA(6/6): mysql-communi 91% [==================  ] 1.5 MB/s | 148 MB     00:09 ETA(6/6): mysql-communi 91% [==================  ] 1.5 MB/s | 149 MB     00:09 ETA(6/6): mysql-communi 91% [==================  ] 1.4 MB/s | 149 MB     00:09 ETA(6/6): mysql-communi 91% [==================  ] 1.4 MB/s | 149 MB     00:10 ETA(6/6): mysql-communi 91% [==================  ] 1.3 MB/s | 149 MB     00:10 ETA(6/6): mysql-communi 91% [==================  ] 1.3 MB/s | 149 MB     00:10 ETA(6/6): mysql-communi 92% [==================  ] 1.3 MB/s | 150 MB     00:10 ETA(6/6): mysql-communi 92% [==================  ] 1.3 MB/s | 150 MB     00:10 ETA(6/6): mysql-communi 92% [==================- ] 1.3 MB/s | 151 MB     00:09 ETA(6/6): mysql-communi 92% [==================- ] 1.3 MB/s | 151 MB     00:09 ETA(6/6): mysql-communi 93% [==================- ] 1.3 MB/s | 152 MB     00:08 ETA(6/6): mysql-communi 93% [==================- ] 1.3 MB/s | 152 MB     00:08 ETA(6/6): mysql-communi 93% [==================- ] 1.3 MB/s | 152 MB     00:07 ETA(6/6): mysql-communi 93% [==================- ] 1.3 MB/s | 153 MB     00:07 ETA(6/6): mysql-communi 94% [==================- ] 1.3 MB/s | 153 MB     00:07 ETA(6/6): mysql-communi 94% [==================- ] 1.3 MB/s | 154 MB     00:06 ETA(6/6): mysql-communi 94% [==================- ] 1.3 MB/s | 154 MB     00:06 ETA(6/6): mysql-communi 94% [==================- ] 1.3 MB/s | 155 MB     00:06 ETA(6/6): mysql-communi 95% [=================== ] 1.3 MB/s | 155 MB     00:06 ETA(6/6): mysql-communi 95% [=================== ] 1.3 MB/s | 155 MB     00:06 ETA(6/6): mysql-communi 95% [=================== ] 1.3 MB/s | 155 MB     00:05 ETA(6/6): mysql-communi 95% [=================== ] 1.3 MB/s | 156 MB     00:05 ETA(6/6): mysql-communi 96% [=================== ] 1.3 MB/s | 156 MB     00:05 ETA(6/6): mysql-communi 96% [=================== ] 1.3 MB/s | 157 MB     00:04 ETA(6/6): mysql-communi 96% [=================== ] 1.3 MB/s | 157 MB     00:03 ETA(6/6): mysql-communi 97% [=================== ] 1.4 MB/s | 158 MB     00:03 ETA(6/6): mysql-communi 97% [=================== ] 1.4 MB/s | 158 MB     00:03 ETA(6/6): mysql-communi 97% [===================-] 1.4 MB/s | 159 MB     00:02 ETA(6/6): mysql-communi 97% [===================-] 1.4 MB/s | 159 MB     00:02 ETA(6/6): mysql-communi 98% [===================-] 1.4 MB/s | 160 MB     00:02 ETA(6/6): mysql-communi 98% [===================-] 1.4 MB/s | 160 MB     00:01 ETA(6/6): mysql-communi 98% [===================-] 1.4 MB/s | 160 MB     00:01 ETA(6/6): mysql-communi 98% [===================-] 1.3 MB/s | 161 MB     00:01 ETA(6/6): mysql-communi 98% [===================-] 1.3 MB/s | 161 MB     00:01 ETA(6/6): mysql-communi 99% [===================-] 1.3 MB/s | 161 MB     00:01 ETA(6/6): mysql-communi 99% [===================-] 1.2 MB/s | 161 MB     00:01 ETA(6/6): mysql-communi 99% [===================-] 1.2 MB/s | 162 MB     00:00 ETA(6/6): mysql-communi 99% [===================-] 1.2 MB/s | 162 MB     00:00 ETA(6/6): mysql-communi 99% [===================-] 1.3 MB/s | 163 MB     00:00 ETA(6/6): mysql-community-server-5.7.16-1.fc24.x86 1.1 MB/s | 124 MB     01:50    
+--------------------------------------------------------------------------------
+Total                                           1.5 MB/s | 163 MB     01:51     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Installing  : mysql-community-common-5.7.1 [                            ] 1/6  Installing  : mysql-community-common-5.7.1 [=                           ] 1/6  Installing  : mysql-community-common-5.7.1 [==                          ] 1/6  Installing  : mysql-community-common-5.7.1 [===                         ] 1/6  Installing  : mysql-community-common-5.7.1 [====                        ] 1/6  Installing  : mysql-community-common-5.7.1 [=====                       ] 1/6  Installing  : mysql-community-common-5.7.1 [======                      ] 1/6  Installing  : mysql-community-common-5.7.1 [=======                     ] 1/6  Installing  : mysql-community-common-5.7.1 [========                    ] 1/6  Installing  : mysql-community-common-5.7.1 [=========                   ] 1/6  Installing  : mysql-community-common-5.7.1 [==========                  ] 1/6  Installing  : mysql-community-common-5.7.1 [===========                 ] 1/6  Installing  : mysql-community-common-5.7.1 [============                ] 1/6  Installing  : mysql-community-common-5.7.1 [=============               ] 1/6  Installing  : mysql-community-common-5.7.1 [==============              ] 1/6  Installing  : mysql-community-common-5.7.1 [===============             ] 1/6  Installing  : mysql-community-common-5.7.1 [================            ] 1/6  Installing  : mysql-community-common-5.7.1 [=================           ] 1/6  Installing  : mysql-community-common-5.7.1 [==================          ] 1/6  Installing  : mysql-community-common-5.7.1 [===================         ] 1/6  Installing  : mysql-community-common-5.7.1 [====================        ] 1/6  Installing  : mysql-community-common-5.7.1 [=====================       ] 1/6  Installing  : mysql-community-common-5.7.1 [======================      ] 1/6  Installing  : mysql-community-common-5.7.1 [=======================     ] 1/6  Installing  : mysql-community-common-5.7.1 [========================    ] 1/6  Installing  : mysql-community-common-5.7.1 [=========================   ] 1/6  Installing  : mysql-community-common-5.7.1 [==========================  ] 1/6  Installing  : mysql-community-common-5.7.1 [=========================== ] 1/6  Installing  : mysql-community-common-5.7.16-1.fc24.x86_64                 1/6 
+  Installing  : mecab-0.996-1.fc24.4.x86_64 [                             ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=                            ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [==                           ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [===                          ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [====                         ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=====                        ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [======                       ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=======                      ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [========                     ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=========                    ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [==========                   ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [===========                  ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [============                 ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=============                ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [==============               ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [===============              ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [================             ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=================            ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [==================           ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [===================          ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [====================         ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=====================        ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [======================       ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=======================      ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [========================     ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [=========================    ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [==========================   ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [===========================  ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64 [============================ ] 2/6  Installing  : mecab-0.996-1.fc24.4.x86_64                                 2/6 
+  Installing  : mecab-ipadic-2.7.0.20070801- [                            ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=                           ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [==                          ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [===                         ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [====                        ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=====                       ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [======                      ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=======                     ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [========                    ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=========                   ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [==========                  ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [===========                 ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [============                ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=============               ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [==============              ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [===============             ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [================            ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=================           ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [==================          ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [===================         ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [====================        ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=====================       ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [======================      ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=======================     ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [========================    ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=========================   ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [==========================  ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801- [=========================== ] 3/6  Installing  : mecab-ipadic-2.7.0.20070801-12.fc24.1.x86_64                3/6 
+  Installing  : mysql-community-libs-5.7.16- [                            ] 4/6  Installing  : mysql-community-libs-5.7.16- [=                           ] 4/6  Installing  : mysql-community-libs-5.7.16- [==                          ] 4/6  Installing  : mysql-community-libs-5.7.16- [===                         ] 4/6  Installing  : mysql-community-libs-5.7.16- [====                        ] 4/6  Installing  : mysql-community-libs-5.7.16- [=====                       ] 4/6  Installing  : mysql-community-libs-5.7.16- [======                      ] 4/6  Installing  : mysql-community-libs-5.7.16- [=======                     ] 4/6  Installing  : mysql-community-libs-5.7.16- [========                    ] 4/6  Installing  : mysql-community-libs-5.7.16- [=========                   ] 4/6  Installing  : mysql-community-libs-5.7.16- [==========                  ] 4/6  Installing  : mysql-community-libs-5.7.16- [===========                 ] 4/6  Installing  : mysql-community-libs-5.7.16- [============                ] 4/6  Installing  : mysql-community-libs-5.7.16- [=============               ] 4/6  Installing  : mysql-community-libs-5.7.16- [==============              ] 4/6  Installing  : mysql-community-libs-5.7.16- [===============             ] 4/6  Installing  : mysql-community-libs-5.7.16- [================            ] 4/6  Installing  : mysql-community-libs-5.7.16- [=================           ] 4/6  Installing  : mysql-community-libs-5.7.16- [==================          ] 4/6  Installing  : mysql-community-libs-5.7.16- [===================         ] 4/6  Installing  : mysql-community-libs-5.7.16- [====================        ] 4/6  Installing  : mysql-community-libs-5.7.16- [=====================       ] 4/6  Installing  : mysql-community-libs-5.7.16- [======================      ] 4/6  Installing  : mysql-community-libs-5.7.16- [=======================     ] 4/6  Installing  : mysql-community-libs-5.7.16- [========================    ] 4/6  Installing  : mysql-community-libs-5.7.16- [=========================   ] 4/6  Installing  : mysql-community-libs-5.7.16- [==========================  ] 4/6  Installing  : mysql-community-libs-5.7.16- [=========================== ] 4/6  Installing  : mysql-community-libs-5.7.16-1.fc24.x86_64                   4/6 
+  Installing  : mysql-community-client-5.7.1 [                            ] 5/6  Installing  : mysql-community-client-5.7.1 [=                           ] 5/6  Installing  : mysql-community-client-5.7.1 [==                          ] 5/6  Installing  : mysql-community-client-5.7.1 [===                         ] 5/6  Installing  : mysql-community-client-5.7.1 [====                        ] 5/6  Installing  : mysql-community-client-5.7.1 [=====                       ] 5/6  Installing  : mysql-community-client-5.7.1 [======                      ] 5/6  Installing  : mysql-community-client-5.7.1 [=======                     ] 5/6  Installing  : mysql-community-client-5.7.1 [========                    ] 5/6  Installing  : mysql-community-client-5.7.1 [=========                   ] 5/6  Installing  : mysql-community-client-5.7.1 [==========                  ] 5/6  Installing  : mysql-community-client-5.7.1 [===========                 ] 5/6  Installing  : mysql-community-client-5.7.1 [============                ] 5/6  Installing  : mysql-community-client-5.7.1 [=============               ] 5/6  Installing  : mysql-community-client-5.7.1 [==============              ] 5/6  Installing  : mysql-community-client-5.7.1 [===============             ] 5/6  Installing  : mysql-community-client-5.7.1 [================            ] 5/6  Installing  : mysql-community-client-5.7.1 [=================           ] 5/6  Installing  : mysql-community-client-5.7.1 [==================          ] 5/6  Installing  : mysql-community-client-5.7.1 [===================         ] 5/6  Installing  : mysql-community-client-5.7.1 [====================        ] 5/6  Installing  : mysql-community-client-5.7.1 [=====================       ] 5/6  Installing  : mysql-community-client-5.7.1 [======================      ] 5/6  Installing  : mysql-community-client-5.7.1 [=======================     ] 5/6  Installing  : mysql-community-client-5.7.1 [========================    ] 5/6  Installing  : mysql-community-client-5.7.1 [=========================   ] 5/6  Installing  : mysql-community-client-5.7.1 [==========================  ] 5/6  Installing  : mysql-community-client-5.7.1 [=========================== ] 5/6  Installing  : mysql-community-client-5.7.16-1.fc24.x86_64                 5/6 
+  Installing  : mysql-community-server-5.7.1 [                            ] 6/6  Installing  : mysql-community-server-5.7.1 [=                           ] 6/6  Installing  : mysql-community-server-5.7.1 [==                          ] 6/6  Installing  : mysql-community-server-5.7.1 [===                         ] 6/6  Installing  : mysql-community-server-5.7.1 [====                        ] 6/6  Installing  : mysql-community-server-5.7.1 [=====                       ] 6/6  Installing  : mysql-community-server-5.7.1 [======                      ] 6/6  Installing  : mysql-community-server-5.7.1 [=======                     ] 6/6  Installing  : mysql-community-server-5.7.1 [========                    ] 6/6  Installing  : mysql-community-server-5.7.1 [=========                   ] 6/6  Installing  : mysql-community-server-5.7.1 [==========                  ] 6/6  Installing  : mysql-community-server-5.7.1 [===========                 ] 6/6  Installing  : mysql-community-server-5.7.1 [============                ] 6/6  Installing  : mysql-community-server-5.7.1 [=============               ] 6/6  Installing  : mysql-community-server-5.7.1 [==============              ] 6/6  Installing  : mysql-community-server-5.7.1 [===============             ] 6/6  Installing  : mysql-community-server-5.7.1 [================            ] 6/6  Installing  : mysql-community-server-5.7.1 [=================           ] 6/6  Installing  : mysql-community-server-5.7.1 [==================          ] 6/6  Installing  : mysql-community-server-5.7.1 [===================         ] 6/6  Installing  : mysql-community-server-5.7.1 [====================        ] 6/6  Installing  : mysql-community-server-5.7.1 [=====================       ] 6/6  Installing  : mysql-community-server-5.7.1 [======================      ] 6/6  Installing  : mysql-community-server-5.7.1 [=======================     ] 6/6  Installing  : mysql-community-server-5.7.1 [========================    ] 6/6  Installing  : mysql-community-server-5.7.1 [=========================   ] 6/6  Installing  : mysql-community-server-5.7.1 [==========================  ] 6/6  Installing  : mysql-community-server-5.7.1 [=========================== ] 6/6  Installing  : mysql-community-server-5.7.16-1.fc24.x86_64                 6/6 
+  Verifying   : mysql-community-server-5.7.16-1.fc24.x86_64                 1/6 
+  Verifying   : mecab-0.996-1.fc24.4.x86_64                                 2/6 
+  Verifying   : mysql-community-common-5.7.16-1.fc24.x86_64                 3/6 
+  Verifying   : mecab-ipadic-2.7.0.20070801-12.fc24.1.x86_64                4/6 
+  Verifying   : mysql-community-client-5.7.16-1.fc24.x86_64                 5/6 
+  Verifying   : mysql-community-libs-5.7.16-1.fc24.x86_64                   6/6 
+
+Installed:
+  mecab.x86_64 0.996-1.fc24.4                                                   
+  mecab-ipadic.x86_64 2.7.0.20070801-12.fc24.1                                  
+  mysql-community-client.x86_64 5.7.16-1.fc24                                   
+  mysql-community-common.x86_64 5.7.16-1.fc24                                   
+  mysql-community-libs.x86_64 5.7.16-1.fc24                                     
+  mysql-community-server.x86_64 5.7.16-1.fc24                                   
+
+Complete!
+]777;notify;Command completed;sudo dnf install mysql-community-server]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld status
+Redirecting to /bin/systemctl status  mysqld.service
+[?1h=● mysqld.service - MySQL Server[m
+   Loaded: loaded (/usr/lib/systemd/system/mysqld.service; enabled; vendor prese[m
+   Active: inactive (dead)[m
+[m
+Oct 18 01:36:13 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+Oct 18 01:36:43 localhost.localdomain systemd[1]: Started MySQL Server.[m
+Oct 18 11:17:06 localhost.localdomain systemd[1]: Stopping MySQL Server...[m
+Oct 18 11:17:08 localhost.localdomain systemd[1]: Stopped MySQL Server.[m
+[7mlines 1-8/8 (END)[27m[K[K[?1l>]777;notify;Command completed;sudo service mysqld status]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld status[K[K[Krt
+Redirecting to /bin/systemctl start  mysqld.service
+]777;notify;Command completed;sudo service mysqld start]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld starttus
+Redirecting to /bin/systemctl status  mysqld.service
+[?1h=[0;1;32m●[0m mysqld.service - MySQL Server[m
+   Loaded: loaded (/usr/lib/systemd/system/mysqld.service; enabled; vendor prese[m
+   Active: [0;1;32mactive (running)[0m since Tue 2016-10-18 11:30:43 EDT; 1s ago[m
+  Process: 8442 ExecStart=/usr/sbin/mysqld --daemonize --pid-file=/var/run/mysql[m
+  Process: 8410 ExecStartPre=/usr/bin/mysqld_pre_systemd (code=exited, status=0/[m
+ Main PID: 8444 (mysqld)[m
+    Tasks: 27 (limit: 512)[m
+   CGroup: /system.slice/mysqld.service[m
+           └─8444 /usr/sbin/mysqld --daemonize --pid-file=/var/run/mysqld/mysqld[m
+[m
+Oct 18 11:30:41 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+Oct 18 11:30:43 localhost.localdomain systemd[1]: Started MySQL Server.[m
+[7mlines 1-12/12 (END)[27m[K[K[?1l>]777;notify;Command completed;sudo service mysqld status]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo grep 'temporary password' /var/log/mysqld.log
+2016-02-12T20:12:00.001484Z 1 [Note] A temporary password is generated for root@localhost: h#EYw)1ugLd+
+]777;notify;Command completed;sudo grep 'temporary password' /var/log/mysqld.log]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo grep 'temporary password' /var/log/mysqld.log[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+2016-02-12T20:12:00.001484Z 1 [Note] A temporary password is generated for root@localhost: h#EYw)1ugLd+
+2016-02-12T20:13:50.798284Z 2 [Note] Access denied for user 'axxe'@'localhost' (using password: NO)
+2016-02-12T20:13:57.029609Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:14:03.186415Z 4 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-12T20:14:11.598469Z 5 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:14:15.623593Z 6 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-12T20:14:26.572981Z 7 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:14:27.031722Z 8 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:20:13.485246Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-12T20:20:15.148994Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-12T20:20:15.149000Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-12T20:29:47.128186Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:29:54.105398Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:29:58.951846Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:30:42.493690Z 5 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:31:53.482170Z 6 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:39:00.037518Z 7 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:39:04.658848Z 8 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:39:10.765229Z 9 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-12T20:39:23.941894Z 10 [Note] Access denied for user 'axxe'@'localhost' (using password: NO)
+2016-02-12T20:39:31.775009Z 11 [Note] Access denied for user 'mysql'@'localhost' (using password: NO)
+2016-02-12T20:39:40.422338Z 12 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-12T20:40:20.323017Z 13 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-12T20:40:24.084298Z 14 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:41:56.516219Z 15 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:42:00.148898Z 16 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-12T20:44:06.468736Z 17 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:44:10.925641Z 18 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-12T20:46:02.417875Z 19 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:46:29.768551Z 20 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:46:55.315938Z 21 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:46:59.612887Z 22 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:47:02.754495Z 23 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-12T20:47:05.197438Z 24 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-12T20:47:37.203253Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-12T20:47:39.108435Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-12T20:47:39.108441Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-13T20:27:10.416162Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-13T20:27:17.027291Z 3 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-13T20:27:29.181788Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-13T20:27:31.414391Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-13T20:27:31.414399Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-13T20:30:32.370216Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-13T20:30:40.534019Z 3 [Note] Your password has expired. To log in you must change it using a client that supports expired passwords.
+2016-02-13T20:32:34.423432Z 5 [Note] Access denied for user 'axxe'@'localhost' (using password: NO)
+2016-02-13T20:32:39.871288Z 6 [Note] Access denied for user '-p'@'localhost' (using password: NO)
+2016-02-13T20:32:48.841944Z 7 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-13T20:32:54.149836Z 8 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-02-13T22:48:13.740726Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-13T22:48:17.806941Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-13T22:48:17.806947Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-14T16:22:01.892624Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-14T16:41:45.891422Z 5 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-15T17:58:38.626368Z 42 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-16T04:23:21.141150Z 104 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-16T15:05:43.342760Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-16T15:05:48.449906Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-16T15:05:48.449913Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-17T00:15:31.069288Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-17T00:15:32.524723Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-17T00:15:32.524729Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-17T05:55:17.326486Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2016-02-17T15:11:29.318832Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-17T15:11:33.411251Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-17T15:11:33.411258Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-18T00:15:52.370240Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-18T00:15:54.485601Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-18T00:15:54.485607Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-18T14:50:03.440942Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-18T14:50:05.675477Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-18T14:50:05.675484Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-19T00:26:07.205320Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-19T00:26:09.709665Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-19T00:26:09.709669Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-19T13:48:18.855750Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-19T13:48:20.206652Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-19T13:48:20.206655Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-19T23:41:02.285425Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-19T23:41:04.861506Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-19T23:41:04.861512Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-20T18:53:37.610954Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-20T18:53:41.612070Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-20T18:53:41.612075Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-22T13:50:10.229590Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-22T13:50:24.129750Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-22T13:50:24.129754Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-23T05:24:17.053421Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-23T05:24:23.636377Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-23T05:24:23.636381Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-23T23:19:16.348836Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-23T23:19:18.282451Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-23T23:19:18.282458Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-25T02:26:02.906577Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-25T02:26:04.835141Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-25T02:26:04.835147Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-25T23:33:07.819863Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-25T23:33:09.654861Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-25T23:33:09.654864Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-26T14:10:36.103464Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-26T14:10:40.641473Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-26T14:10:40.641476Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-26T23:18:22.362141Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-26T23:18:24.749551Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-26T23:18:24.749557Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-27T04:18:57.743494Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-27T04:18:59.186932Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-27T04:18:59.186937Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-27T17:30:25.440363Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-27T17:30:27.721316Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-27T17:30:27.721322Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-28T00:28:12.432175Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-28T00:28:19.714623Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-28T00:28:19.714630Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-28T18:38:29.120647Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-28T18:38:33.031700Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-28T18:38:33.031706Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-28T20:28:24.269856Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-28T20:28:27.404065Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-28T20:28:27.404072Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-29T02:25:51.877805Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-29T02:25:54.359161Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-29T02:25:54.359167Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-02-29T05:51:18.923062Z 0 [Note] Shutting down plugin 'validate_password'
+2016-02-29T05:51:22.273225Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-02-29T05:51:22.273231Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-01T00:44:09.064221Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-01T00:44:11.221290Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-01T00:44:11.221294Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-01T04:44:51.394108Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-01T04:44:53.162198Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-01T04:44:53.162201Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-01T23:35:27.115859Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-01T23:35:29.101237Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-01T23:35:29.101242Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-02T12:52:22.734460Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-02T12:52:28.230914Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-02T12:52:28.230921Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-03T00:21:07.538081Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-03T00:21:14.299878Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-03T00:21:14.299881Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-03T05:44:33.485583Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-03T05:44:35.497674Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-03T05:44:35.497677Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-03T18:38:03.067339Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-03T18:38:04.781637Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-03T18:38:04.781643Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-03T23:33:50.633369Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-03T23:33:52.692125Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-03T23:33:52.692131Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-04T15:57:16.342177Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-04T15:57:20.007323Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-04T15:57:20.007330Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-04T21:02:26.718308Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-04T21:03:16.850981Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-04T21:03:16.851007Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-04T23:41:39.858727Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-04T23:42:02.115937Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-04T23:42:02.115996Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-05T05:57:49.145364Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-05T05:57:51.190533Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-05T05:57:51.190536Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-05T19:35:11.235578Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-05T19:35:15.335178Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-05T19:35:15.335184Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-06T00:26:51.255751Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-06T00:26:55.366616Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-06T00:26:55.366623Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-06T17:27:43.885922Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-06T17:27:45.963863Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-06T17:27:45.963867Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-07T00:10:41.845717Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-07T00:10:43.595821Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-07T00:10:43.595827Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-07T05:21:24.157855Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-07T05:21:25.826787Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-07T05:21:25.826793Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-07T23:31:13.587314Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-07T23:31:16.770399Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-07T23:31:16.770405Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-09T00:22:32.945779Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-09T00:22:35.895021Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-09T00:22:35.895024Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-09T04:09:59.440710Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-09T04:10:01.391422Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-09T04:10:01.391428Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-09T23:19:00.176227Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-09T23:19:06.218392Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-09T23:19:06.218395Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-09T23:46:27.486688Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-09T23:46:31.664957Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-09T23:46:31.664962Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-10T23:52:58.348629Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-10T23:53:16.710313Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-10T23:53:16.710322Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-11T05:04:49.565391Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-11T05:04:51.456209Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-11T05:04:51.456215Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-11T22:38:13.014763Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-11T22:38:15.754492Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-11T22:38:15.754500Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-21T22:38:10.216603Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-21T22:38:28.128859Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-21T22:38:28.128862Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-22T14:51:08.488148Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-22T14:51:10.681903Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-22T14:51:10.681906Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-22T21:07:06.268559Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-22T21:07:08.160722Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-22T21:07:08.160728Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-23T23:38:36.512325Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-23T23:38:38.067893Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-23T23:38:38.067897Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-24T14:19:33.444061Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-24T14:19:35.321088Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-24T14:19:35.321092Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-24T23:42:20.884542Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-24T23:42:23.825163Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-24T23:42:23.825168Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-25T04:24:27.843619Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-25T04:24:29.601511Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-25T04:24:29.601514Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-25T22:17:15.720120Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-25T22:17:17.246228Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-25T22:17:17.246234Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-26T16:19:20.221923Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-26T16:19:22.637494Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-26T16:19:22.637500Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-27T14:49:19.437561Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-27T14:49:21.242029Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-27T14:49:21.242036Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-27T17:56:29.079387Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-27T17:56:31.045127Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-27T17:56:31.045133Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-27T19:24:32.735434Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-27T19:24:34.956767Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-27T19:24:34.956772Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-27T23:04:20.155046Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-27T23:04:22.237725Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-27T23:04:22.237731Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-28T12:16:48.782369Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-28T12:16:50.692346Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-28T12:16:50.692350Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-28T22:18:35.705879Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-28T22:18:38.371686Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-28T22:18:38.371692Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-29T12:20:44.145035Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-29T12:20:49.319888Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-29T12:20:49.319894Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-30T00:20:44.181460Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-30T00:20:50.267725Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-30T00:20:50.267742Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-30T02:18:16.466398Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-30T02:18:18.568721Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-30T02:18:18.568726Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-30T04:53:53.236196Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-30T04:53:55.350881Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-30T04:53:55.350885Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-30T21:37:32.778311Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-30T21:37:38.300634Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-30T21:37:38.300638Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-30T22:55:01.561292Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-30T22:55:03.647956Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-30T22:55:03.647964Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-03-31T13:23:00.195945Z 0 [Note] Shutting down plugin 'validate_password'
+2016-03-31T13:23:04.969630Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-03-31T13:23:04.969634Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-04-01T00:23:19.368014Z 0 [Note] Shutting down plugin 'validate_password'
+2016-04-01T00:23:36.503230Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-04-01T00:23:36.503233Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-04-01T04:37:32.421245Z 0 [Note] Shutting down plugin 'validate_password'
+2016-04-01T04:37:34.353486Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-04-01T04:37:34.353491Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-04-01T21:26:31.358133Z 0 [Note] Shutting down plugin 'validate_password'
+2016-04-01T21:26:33.101979Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-04-01T21:26:33.101987Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-04-02T15:43:57.590006Z 0 [Note] Shutting down plugin 'validate_password'
+2016-04-02T15:43:59.461796Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-04-02T15:43:59.461801Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-04-02T21:31:30.485744Z 0 [Note] Shutting down plugin 'validate_password'
+2016-04-02T21:31:33.408686Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-04-02T21:31:33.408689Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-04-03T17:20:32.778842Z 0 [Note] Shutting down plugin 'validate_password'
+2016-04-03T17:20:34.697351Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-04-03T17:20:34.697362Z 0 [Note] Shutting down plugin 'mysql_native_password'
+Binary file /var/log/mysqld.log matches
+]777;notify;Command completed;sudo grep 'password' /var/log/mysqld.log]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld stop=[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo vim /etc/my.cnf
+[sudo] password for axxe: 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"/etc/my.cnf" 27L, 960C[>c[27m[23m[m[H[2J[1;1H[96m# For advice on how to change settings please see
+# http://dev.mysql.com/doc/refman/5.7/en/server-configuration-defaults.html[m
+
+[mysqld]
+[96m#
+# Remove leading # and set to the amount of RAM for the most important data
+# cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
+# innodb_buffer_pool_size = 128M
+#
+# Remove leading # to turn on a very important data integrity option: logging
+# changes to the [m[30m[103mbin[m[96mary log between backups.
+# log_[m[30m[103mbin[m
+[96m#
+# Remove leading # to set options mainly useful for reporting servers.
+# The server defaults are faster for transactions and fast SELECTs.
+# Adjust sizes as needed, experiment to find the optimal values.
+# join_buffer_size = 128M
+# sort_buffer_size = 2M
+# read_rnd_buffer_size = 2M[m
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+[96m# Disabling symbolic-links is recommended to prevent assorted security risks[m[24;63H1,1[11CTop"/etc/my.cnf" 27L, 960C[39C   [11C   [1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2,1[11CTop[2;1H[?12l[?25h[?25l[24;63H3,0-1[3;1H[?12l[?25h[?25l
+[46m[[mmysqld[46m][m[24;63H4,1  [4;1H[?12l[?25h[?25l[mysqld][24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9[9;1H[?12l[?25h[?25l[24;63H10,1[10;1H[?12l[?25h[?25l[24;64H1[11;1H[?12l[?25h[?25l[24;64H2[12;1H[?12l[?25h[?25l[24;64H3[13;1H[?12l[?25h[?25l[24;64H4[14;1H[?12l[?25h[?25l[24;64H5[15;1H[?12l[?25h[?25l[24;64H6[16;1H[?12l[?25h[?25l[24;64H7[17;1H[?12l[?25h[?25l[24;64H8[18;1H[?12l[?25h[?25l[24;64H9[19;1H[?12l[?25h[?25l[24;63H20[20;1H[?12l[?25h[?25l[24;64H1[21;1H[?12l[?25h[?25l[24;64H2,0-1[22;1H[?12l[?25h[?25l[24;64H3,1  [23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hsymbolic-links=0[24;1H[K[24;63H24,1[10C25%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H25,0-1[8C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hlog-error=/var/log/mysqld.log[24;63H[K[24;63H26,1[10C75%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hpid-file=/var/run/mysqld/mysqld.pid[24;63H[K[24;63H27,1[10CBot[23;1H[?12l[?25h[?25l[24;64H6[22;1H[?12l[?25h[?25l[24;64H5,0-1[21;1H[?12l[?25h[?25l[24;64H4,1  [20;1H[?12l[?25h[?25l[24;64H3[19;1H[?12l[?25h[?25l[24;64H2,0-1[18;1H[?12l[?25h[?25l[24;64H1,1  [17;1H[?12l[?25h[?25l[24;64H0[16;1H[?12l[?25h[?25l[24;63H19[15;1H[?12l[?25h[?25l[24;64H8[14;1H[?12l[?25h[?25l[24;64H7[13;1H[?12l[?25h[?25l[24;64H6[12;1H[?12l[?25h[?25l[24;64H5[11;1H[?12l[?25h[?25l[24;64H4[10;1H[?12l[?25h[?25l[24;64H3[9;1H[?12l[?25h[?25l[24;64H2[8;1H[?12l[?25h[?25l[24;64H1[7;1H[?12l[?25h[?25l[24;64H0[6;1H[?12l[?25h[?25l[24;63H9,1 [5;1H[?12l[?25h[?25l[24;63H8[4;1H[?12l[?25h[?25l[24;63H7[3;1H[?12l[?25h[?25l[24;63H6[2;1H[?12l[?25h[?25l[24;63H5[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[46m[[mmysqld[46m][m[24;63H[K[24;63H4,1[11C75%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[2;1H[mysqld][24;63H[K[24;63H3,0-1[9C50%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[96m# http://dev.mysql.com/doc/refman/5.7/en/server-configuration-defaults.html[m[24;63H[K[24;63H2,1[11C25%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[96m# For advice on how to change settings please see[m[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3,0-1[3;1H[?12l[?25h[?25l
+[46m[[mmysqld[46m][m[24;63H4,1  [4;1H[?12l[?25h[?25l[mysqld][24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9[9;1H[?12l[?25h[?25l[24;63H10,1[10;1H[?12l[?25h[?25l[24;64H1[11;1H[?12l[?25h[?25l[24;64H2[12;1H[?12l[?25h[?25l[24;64H3[13;1H[?12l[?25h[?25l[24;64H4[14;1H[?12l[?25h[?25l[24;64H5[15;1H[?12l[?25h[?25l[24;64H6[16;1H[?12l[?25h[?25l[24;64H7[17;1H[?12l[?25h[?25l[24;64H8[18;1H[?12l[?25h[?25l[24;64H9[19;1H[?12l[?25h[?25l[24;63H20[20;1H[?12l[?25h[?25l[24;64H1[21;1H[?12l[?25h[?25l[24;64H2,0-1[22;1H[?12l[?25h[?25l[24;64H3,1  [23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hsymbolic-links=0[24;63H[K[24;63H24,1[10C25%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H25,0-1[8C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hlog-error=/var/log/mysqld.log[24;63H[K[24;63H26,1[10C75%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hpid-file=/var/run/mysqld/mysqld.pid[24;63H[K[24;63H27,1[10CBot[23;1H[?12l[?25h[?25l[24;64H6[22;1H[?12l[?25h[?25l[24;64H5,0-1[21;1H[?12l[?25h[?25l[24;64H4,1  [20;1H[?12l[?25h[?25l[24;64H3[19;1H[?12l[?25h[?25l[24;64H2,0-1[18;1H[?12l[?25h[?25l[24;64H3,1  [19;1H[?12l[?25h[?25l[24;64H4[20;1H[?12l[?25h[?25l[24;64H3[19;1H[?12l[?25h[?25l[24;64H2,0-1[18;1H[?12l[?25h[?25l[24;64H1,1  [17;1H[?12l[?25h[?25l[24;64H0[16;1H[?12l[?25h[?25l[24;63H19[15;1H[?12l[?25h[?25l[24;64H8[14;1H[?12l[?25h[?25l[24;64H7[13;1H[?12l[?25h[?25l[24;64H6[12;1H[?12l[?25h[?25l[24;64H5[11;1H[?12l[?25h[?25l[24;64H4[10;1H[?12l[?25h[?25l[24;64H3[9;1H[?12l[?25h[?25l[24;64H2[8;1H[?12l[?25h[?25l[24;64H1[7;1H[?12l[?25h[?25l[24;64H0[6;1H[?12l[?25h[?25l[24;63H9,1 [5;1H[?12l[?25h[?25l[24;63H8[4;1H[?12l[?25h[?25l[24;63H7[3;1H[?12l[?25h[?25l[24;63H6[2;1H[?12l[?25h[?25l[24;63H5[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[46m[[mmysqld[46m][m[24;63H[K[24;63H4,1[11C75%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[2;1H[mysqld][24;63H[K[24;63H3,0-1[9C50%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[96m# http://dev.mysql.com/doc/refman/5.7/en/server-configuration-defaults.html[m[24;63H[K[24;63H2,1[11C25%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[96m# For advice on how to change settings please see[m[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3,0-1[3;1H[?12l[?25h[?25l
+[46m[[mmysqld[46m][m[24;63H4,1  [4;1H[?12l[?25h[?25l[mysqld][24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9[9;1H[?12l[?25h[?25l[24;63H10,1[10;1H[?12l[?25h[?25l[24;64H1[11;1H[?12l[?25h[?25l[24;64H2[12;1H[?12l[?25h[?25l[24;64H3[13;1H[?12l[?25h[?25l[24;64H4[14;1H[?12l[?25h[?25l[24;64H5[15;1H[?12l[?25h[?25l[24;64H6[16;1H[?12l[?25h[?25l[24;64H7[17;1H[?12l[?25h[?25l[24;64H8[18;1H[?12l[?25h[?25l[24;64H9[19;1H[?12l[?25h[?25l[24;63H20[20;1H[?12l[?25h[?25l[24;64H1[21;1H[?12l[?25h[?25l[24;64H2,0-1[22;1H[?12l[?25h[?25l[24;64H3,1  [23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hsymbolic-links=0[24;63H[K[24;63H24,1[10C25%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H25,0-1[8C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hlog-error=/var/log/mysqld.log[24;63H[K[24;63H26,1[10C75%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hpid-file=/var/run/mysqld/mysqld.pid[24;63H[K[24;63H27,1[10CBot[23;1H[?12l[?25h[?25l[24;64H6[22;1H[?12l[?25h[?25l[24;64H5,0-1[21;1H[?12l[?25h[?25l
+
+
+[1m-- INSERT --[m[24;63H[K[24;63H25,1[10CBot[21;1H[?12l[?25h[?25ls[24;66H2[21;2H[?12l[?25h[?25lk[24;66H3[21;3H[?12l[?25h[?25li[24;66H4[21;4H[?12l[?25h[?25lp[24;66H5[21;5H[?12l[?25h[?25l-[24;66H6[21;6H[?12l[?25h[?25lg[24;66H7[21;7H[?12l[?25h[?25lr[24;66H8[21;8H[?12l[?25h[?25la[24;66H9[21;9H[?12l[?25h[?25ln[24;66H10[21;10H[?12l[?25h[?25l-[24;67H1[21;11H[?12l[?25h[?25lt[24;67H2[21;12H[?12l[?25h[?25la[24;67H3[21;13H[?12l[?25h[?25lb[24;67H4[21;14H[?12l[?25h[?25ll[24;67H5[21;15H[?12l[?25h[?25le[24;67H6[21;16H[?12l[?25h[?25ls[24;67H7[21;17H[?12l[?25h[?25l[22;1H[K[23;1Hlog-error=/var/log/mysqld.log[23;30H[K[24;64H6,1 [9C80%[22;1H[?12l[?25h[?25l[24;64H5[21;1H[?12l[?25h[?25l[24;64H4[20;1H[?12l[?25h[?25l[24;64H5[21;1H[?12l[?25h[?25l[21;1H[K[22;1Hskip-gran-tables[23;1H[K[24;64H6[12C66[22;1H[?12l[?25h[24;1H[K[22;1H[?25l[24;63H26,1[10C66%[22;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"/etc/my.cnf" 29L, 978C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;sudo vim /etc/my.cnf]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo sercie[K[K[Kvice mysqld restart
+Redirecting to /bin/systemctl restart  mysqld.service
+Job for mysqld.service failed because the control process exited with error code. See "systemctl status mysqld.service" and "journalctl -xe" for details.
+]777;notify;Command completed;sudo service mysqld restart]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld restart[K[K[K[K[K[K[Kstatus
+Redirecting to /bin/systemctl status  mysqld.service
+[?1h=● mysqld.service - MySQL Server[m
+   Loaded: loaded (/usr/lib/systemd/system/mysqld.service; enabled; vendor prese[m
+   Active: activating (start) since Tue 2016-10-18 11:38:38 EDT; 801ms ago[m
+  Process: 9082 ExecStartPre=/usr/bin/mysqld_pre_systemd (code=exited, status=0/[m
+ Main PID: 8444 (code=exited, status=0/SUCCESS);         : 9104 (mysqld)[m
+    Tasks: 2 (limit: 512)[m
+   CGroup: /system.slice/mysqld.service[m
+           ├─9104 /usr/sbin/mysqld --daemonize --pid-file=/var/run/mysqld/mysqld[m
+           └─9107 /usr/sbin/mysqld --daemonize --pid-file=/var/run/mysqld/mysqld[m
+[m
+Oct 18 11:38:38 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+[7mlines 1-11/11 (END)[27m[K[K[?1l>]777;notify;Command completed;sudo service mysqld status]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld status
+Redirecting to /bin/systemctl status  mysqld.service
+[?1h=● mysqld.service - MySQL Server[m
+   Loaded: loaded (/usr/lib/systemd/system/mysqld.service; enabled; vendor prese[m
+   Active: activating (start-pre) since Tue 2016-10-18 11:38:48 EDT; 110ms ago[m
+  Process: 9229 ExecStart=/usr/sbin/mysqld --daemonize --pid-file=/var/run/mysql[m
+ Main PID: 8444 (code=exited, status=0/SUCCESS);         : 9259 (mysqld_pre_syst[m
+    Tasks: 2 (limit: 512)[m
+   CGroup: /system.slice/mysqld.service[m
+           └─control[m
+             ├─9259 /bin/bash /usr/bin/mysqld_pre_systemd[m
+             └─9276 /usr/bin/python3 -Es /usr/sbin/semanage fcontext -a -e /var/[m
+[m
+Oct 18 11:38:48 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+[7mlines 1-12/12 (END)[27m[K[K[?1l>]777;notify;Command completed;sudo service mysqld status]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld status[K[K[K[Kart
+Redirecting to /bin/systemctl start  mysqld.service
+Job for mysqld.service failed because the control process exited with error code. See "systemctl status mysqld.service" and "journalctl -xe" for details.
+]777;notify;Command completed;sudo service mysqld start]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld start[K[K[Kop
+Redirecting to /bin/systemctl stop  mysqld.service
+]777;notify;Command completed;sudo service mysqld stop]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld stop[K[Kart
+Redirecting to /bin/systemctl start  mysqld.service
+Job for mysqld.service failed because the control process exited with error code. See "systemctl status mysqld.service" and "journalctl -xe" for details.
+]777;notify;Command completed;sudo service mysqld start]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ journalctl -xe
+[?1h=[K-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel[m
+-- [m
+-- Unit mysqld.service has failed.[m
+-- [m
+-- The result is failed.[m
+Oct 18 11:39:21 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4[m
+Oct 18 11:39:21 localhost.localdomain systemd[1]: [0;1;39mmysqld.service: Unit entered f[m
+Oct 18 11:39:21 localhost.localdomain systemd[1]: [0;1;39mmysqld.service: Failed with re[m
+Oct 18 11:39:22 localhost.localdomain systemd[1]: mysqld.service: Service hold-o[m
+Oct 18 11:39:22 localhost.localdomain systemd[1]: Stopped MySQL Server.[m
+-- Subject: Unit mysqld.service has finished shutting down[m
+-- Defined-By: systemd[m
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel[m
+-- [m
+-- Unit mysqld.service has finished shutting down.[m
+Oct 18 11:39:22 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4[m
+Oct 18 11:39:22 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=42[m
+Oct 18 11:39:22 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+-- Subject: Unit mysqld.service has begun start-up[m
+-- Defined-By: systemd[m
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel[m
+-- [m
+-- Unit mysqld.service has begun starting up.[m
+[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KAA[K[HM-- Defined-By: systemd[m
+[24;1H[K[7mlines 1504-1526/1527 100%[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+/mailman/listinfo/systemd-devel[m
+[m
+[m
+[m
+[m
+dit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:s[m
+stemd[1]: [0;1;39mmysqld.service: Unit entered failed state.[0m[m
+stemd[1]: [0;1;39mmysqld.service: Failed with result 'exit-code'.[0m[m
+stemd[1]: mysqld.service: Service hold-off time over, scheduling restart.[m
+stemd[1]: Stopped MySQL Server.[m
+shed shutting down[m
+[m
+/mailman/listinfo/systemd-devel[m
+[m
+ting down.[m
+dit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:s[m
+dit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:sy[m
+stemd[1]: Starting MySQL Server...[m
+n start-up[m
+[m
+/mailman/listinfo/systemd-devel[m
+[m
+[7mlines 1504-1526/1527 100%[27m[K[K [KESCESC[KOO[KDD[H[2J[H-- Defined-By: systemd[m
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel[m
+-- [m
+-- Unit mysqld.service has failed.[m
+-- [m
+-- The result is failed.[m
+Oct 18 11:39:21 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4[m
+Oct 18 11:39:21 localhost.localdomain systemd[1]: [0;1;39mmysqld.service: Unit entered f[m
+Oct 18 11:39:21 localhost.localdomain systemd[1]: [0;1;39mmysqld.service: Failed with re[m
+Oct 18 11:39:22 localhost.localdomain systemd[1]: mysqld.service: Service hold-o[m
+Oct 18 11:39:22 localhost.localdomain systemd[1]: Stopped MySQL Server.[m
+-- Subject: Unit mysqld.service has finished shutting down[m
+-- Defined-By: systemd[m
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel[m
+-- [m
+-- Unit mysqld.service has finished shutting down.[m
+Oct 18 11:39:22 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4[m
+Oct 18 11:39:22 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=42[m
+Oct 18 11:39:22 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+-- Subject: Unit mysqld.service has begun start-up[m
+-- Defined-By: systemd[m
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel[m
+-- [m
+[7mlines 1504-1526/1527 100%[27m[K[K [KESCESC[KOO[KBB[K-- Unit mysqld.service has begun starting up.[m
+[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1505-1527/1527 (END)[27m[K[K [KESCESC[KOO[KAA[K[HM-- Defined-By: systemd[m
+[24;1H[K[7mlines 1504-1526/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HM-- Subject: Unit mysqld.service has failed[m
+[24;1H[K[7mlines 1503-1525/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HMOct 18 11:39:21 localhost.localdomain systemd[1]: [0;1;31mFailed to start MySQL Server.[0m[m
+[24;1H[K[7mlines 1502-1524/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HMOct 18 11:39:19 localhost.localdomain systemd[1]: [0;1;39mmysqld.service: Control proces[m
+[24;1H[K[7mlines 1501-1523/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HMOct 18 11:39:19 localhost.localdomain mysqld[9853]: Initialization of mysqld fai[m
+[24;1H[K[7mlines 1500-1522/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HM-- Unit mysqld.service has begun starting up.[m
+[24;1H[K[7mlines 1499-1521/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HM-- [m
+[24;1H[K[7mlines 1498-1520/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HM-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel[m
+[24;1H[K[7mlines 1497-1519/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HM-- Defined-By: systemd[m
+[24;1H[K[7mlines 1496-1518/1527 100%[27m[K[K [KESCESC[KOO[KAA[K[HM-- Subject: Unit mysqld.service has begun start-up[m
+[24;1H[K[7mlines 1495-1517/1527 100%[27m[K[K[?1l>]777;notify;Command completed;journalctl -xe]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ journalctl -xesudo service mysqld start[1Poparttus
+Redirecting to /bin/systemctl status  mysqld.service
+[?1h=● mysqld.service - MySQL Server[m
+   Loaded: loaded (/usr/lib/systemd/system/mysqld.service; enabled; vendor prese[m
+   Active: activating (start-pre) since Tue 2016-10-18 11:40:04 EDT; 391ms ago[m
+  Process: 10493 ExecStart=/usr/sbin/mysqld --daemonize --pid-file=/var/run/mysq[m
+ Main PID: 8444 (code=exited, status=0/SUCCESS);         : 10524 (mysqld_pre_sys[m
+    Tasks: 2 (limit: 512)[m
+   CGroup: /system.slice/mysqld.service[m
+           └─control[m
+             ├─10524 /bin/bash /usr/bin/mysqld_pre_systemd[m
+             └─10543 /usr/bin/python3 -Es /usr/sbin/semanage fcontext -a -e /var[m
+[m
+Oct 18 11:40:04 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+[7mlines 1-12/12 (END)[27m[K[K[?1l>]777;notify;Command completed;sudo service mysqld status]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld status[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pjournalctl -xesudo service mysqld start[1Poparttusrestart
+Redirecting to /bin/systemctl restart  mysqld.service
+Job for mysqld.service failed because the control process exited with error code. See "systemctl status mysqld.service" and "journalctl -xe" for details.
+]777;notify;Command completed;sudo service mysqld restart]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld restart[1Pstatus[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pjournalctl -xesudo service mysqld start[1Poparttusrestart[7Pvim /etc/my.cnfgrep 'password' /var/log/mysqld.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pvim /etc/my.cnf
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"/etc/my.cnf" 29L, 978C[>c[1;1H[mysqld]
+[34m#
+# Remove leading # and set to the amount of RAM for the most important data
+# cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
+# innodb_buffer_pool_size = 128M
+#
+# Remove leading # to turn on a very important data integrity option: logging
+# changes to the [m[34m[103mbin[m[34mary log between backups.
+# log_[m[34m[103mbin[m
+[34m#
+# Remove leading # to set options mainly useful for reporting servers.
+# The server defaults are faster for transactions and fast SELECTs.
+# Adjust sizes as needed, experiment to find the optimal values.
+# join_buffer_size = 128M
+# sort_buffer_size = 2M
+# read_rnd_buffer_size = 2M[m
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+[34m# Disabling symbolic-links is recommended to prevent assorted security risks[m
+symbolic-links=0
+
+skip-gran-tables[24;63H26,1[10C50%[23;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H[mysqld]
+[96m#
+# Remove leading # and set to the amount of RAM for the most important data
+# cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
+# innodb_buffer_pool_size = 128M
+#
+# Remove leading # to turn on a very important data integrity option: logging
+# changes to the [m[30m[103mbin[m[96mary log between backups.
+# log_[m[30m[103mbin[m
+[96m#
+# Remove leading # to set options mainly useful for reporting servers.
+# The server defaults are faster for transactions and fast SELECTs.
+# Adjust sizes as needed, experiment to find the optimal values.
+# join_buffer_size = 128M
+# sort_buffer_size = 2M
+# read_rnd_buffer_size = 2M[m
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+[96m# Disabling symbolic-links is recommended to prevent assorted security risks[m
+symbolic-links=0
+
+skip-gran-tables[24;63H26,1[10C50%"/etc/my.cnf" 29L, 978C[23;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;1H[K[24;63H27,0-1[8C66%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hlog-error=/var/log/mysqld.log[24;63H[K[24;63H28,1[10C83%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hpid-file=/var/run/mysqld/mysqld.pid[24;63H[K[24;63H29,1[10CBot[23;1H[?12l[?25h[?25l[24;64H8[22;1H[?12l[?25h[?25l[24;64H7,0-1[21;1H[?12l[?25h[?25l[24;64H6,1  [20;1H[?12l[?25h[?25l[24;64H5,0-1[19;1H[?12l[?25h[?25l[24;64H4,1  [18;1H[?12l[?25h[?25l[24;64H3[17;1H[?12l[?25h[?25l[24;64H2,0-1[16;1H[?12l[?25h[?25l[24;64H1,1  [15;1H[?12l[?25h[?25l[24;64H0[14;1H[?12l[?25h[?25l[24;63H19[13;1H[?12l[?25h[?25l[24;64H8[12;1H[?12l[?25h[?25l[24;64H7[11;1H[?12l[?25h[?25l[24;64H6[10;1H[?12l[?25h[?25l[24;64H5[9;1H[?12l[?25h[?25l[24;64H4[8;1H[?12l[?25h[?25l[24;64H3[7;1H[?12l[?25h[?25l[24;64H2[6;1H[?12l[?25h[?25l[24;64H1[5;1H[?12l[?25h[?25l[24;64H0[4;1H[?12l[?25h[?25l[24;63H9,1 [3;1H[?12l[?25h[?25l[24;63H8[2;1H[?12l[?25h[?25l[24;63H7[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[96m# Remove leading # and set to the amount of RAM for the most important data[m[24;63H[K[24;63H6,1[11C83%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H5,1[11C66%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[46m[[mmysqld[46m][m[24;63H[K[24;63H4,1[11C50%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[2;1H[mysqld][24;63H[K[24;63H3,0-1[9C33%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[96m# http://dev.mysql.com/doc/refman/5.7/en/server-configuration-defaults.html[m[24;63H[K[24;63H2,1[11C16%[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[96m# For advice on how to change settings please see[m[24;63H[K[24;63H1,1[11CTop[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3,0-1[3;1H[?12l[?25h[?25l
+[46m[[mmysqld[46m][m[24;63H4,1  [4;1H[?12l[?25h[?25l[mysqld][24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[24;63H8[8;1H[?12l[?25h[?25l[24;63H9[9;1H[?12l[?25h[?25l[24;63H10,1[10;1H[?12l[?25h[?25l[24;64H1[11;1H[?12l[?25h[?25l[24;64H2[12;1H[?12l[?25h[?25l[24;64H3[13;1H[?12l[?25h[?25l[24;64H4[14;1H[?12l[?25h[?25l[24;64H5[15;1H[?12l[?25h[?25l[24;64H6[16;1H[?12l[?25h[?25l[24;64H7[17;1H[?12l[?25h[?25l[24;64H8[18;1H[?12l[?25h[?25l[24;64H9[19;1H[?12l[?25h[?25l[24;63H20[20;1H[?12l[?25h[?25l[24;64H1[21;1H[?12l[?25h[?25l[24;64H2,0-1[22;1H[?12l[?25h[?25l[24;64H3,1  [23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hsymbolic-links=0[24;63H[K[24;63H24,1[10C16%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H25,0-1[8C33%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hskip-gran-tables[24;63H[K[24;63H26,1[10C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H27,0-1[8C66%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hlog-error=/var/log/mysqld.log[24;63H[K[24;63H28,1[10C83%[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hpid-file=/var/run/mysqld/mysqld.pid[24;63H[K[24;63H29,1[10CBot[23;1H[?12l[?25h[?25l[24;64H8[22;1H[?12l[?25h[?25l[24;64H7,0-1[21;1H[?12l[?25h[?25l[24;64H6,1  [20;1H[?12l[?25h[?25l[24;66H2[20;2H[?12l[?25h[?25l[24;66H3[20;3H[?12l[?25h[?25l[24;66H4[20;4H[?12l[?25h[?25l[24;66H5[20;5H[?12l[?25h[?25l[24;66H6[20;6H[?12l[?25h[?25l[24;66H7[20;7H[?12l[?25h[?25l[24;66H8[20;8H[?12l[?25h[?25l[24;66H9[20;9H[?12l[?25h[?25l[24;66H10[20;10H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H26,10[9CBot[20;10H[?12l[?25h[?25lt-tables[24;67H1[20;11H[?12l[?25h[24;1H[K[20;10H[?25l[24;63H26,10[9CBot[20;10H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"/etc/my.cnf" 29L, 979C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;sudo vim /etc/my.cnf]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo vim /etc/my.cnfservice mysqld restart
+Redirecting to /bin/systemctl restart  mysqld.service
+]777;notify;Command completed;sudo service mysqld restart]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo service mysqld restart[7Pvim /etc/my.cnfservice mysqld restart[1Pstatus
+Redirecting to /bin/systemctl status  mysqld.service
+[?1h=[0;1;32m●[0m mysqld.service - MySQL Server[m
+   Loaded: loaded (/usr/lib/systemd/system/mysqld.service; enabled; vendor prese[m
+   Active: [0;1;32mactive (running)[0m since Tue 2016-10-18 11:41:10 EDT; 3s ago[m
+  Process: 11645 ExecStart=/usr/sbin/mysqld --daemonize --pid-file=/var/run/mysq[m
+  Process: 11623 ExecStartPre=/usr/bin/mysqld_pre_systemd (code=exited, status=0[m
+ Main PID: 11648 (mysqld)[m
+    Tasks: 27 (limit: 512)[m
+   CGroup: /system.slice/mysqld.service[m
+           └─11648 /usr/sbin/mysqld --daemonize --pid-file=/var/run/mysqld/mysql[m
+[m
+Oct 18 11:41:08 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+Oct 18 11:41:10 localhost.localdomain systemd[1]: Started MySQL Server.[m
+[7mlines 1-12/12 (END)[27m[K[K[?1l>]777;notify;Command completed;sudo service mysqld status]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -u root 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 2
+Server version: 5.7.16 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> sudo grep 'temporary password' /var/log/mysqld.log
+[1]+  Stopped                 mysql -u root
+]777;notify;Command completed;mysql -u root ]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -u root 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 3
+Server version: 5.7.16 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> UPDATE user SET authentication_string = PASSWORD('myNuevoPassword') WHERE  [A[80G[Py[80G  [K[A[58G[PN[80G  [K[A[58G[Pu[Pe[Pv[Po[PP[Pa[Pss[Pw[Pw[Po[Pr[Pd[P'[1@r'[1@o'[1@o'[1@t'') WHERE user='root ';
+ERROR 1046 (3D000): No database selected
+mysql> use mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> use mysql;[8Gexit[K;[Kshow tables[8Guse classicmodels[8Gshow tables[K[8G;[Kexituse mysql;[8G[KUPDATE user SET authentication_string = PASSWORD('myNuevoPassword') WHERE  user='root';[A[80G[P'[80G  [Pu[A[72G[P[79G uu[Ps[A[71G[P[80Gss[Pe[A[70G[P[80Gee[Pr[A[69G[P[80Grr[P=[A[68G[P[80G==[P'[A[67G[P[80G''[Pr[A[66G[P[80Grr[Po[A[65G[P[80Goot';[K[A[64G[P[79Gooot';[K[A[63G[P[80Gtt';[K[A[62G[P[80G'';[K[A[61G[P[80G;;[K[A[60G[P'[80G  [K[A[59G[P'[1@r'[1@o'[1@o[80G' ;[A[61G[1@t[80Gt;';[A[62G[80Gt'
+Query OK, 1 row affected, 1 warning (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 1
+
+mysql> exit
+Bye
+]777;notify;Command completed;mysql -u root ]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo vim /etc/my.cnf
+[sudo] password for axxe: 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"/etc/my.cnf" 29L, 979C[>c[1;1H[mysqld]
+[34m#
+# Remove leading # and set to the amount of RAM for the most important data
+# cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
+# innodb_buffer_pool_size = 128M
+#
+# Remove leading # to turn on a very important data integrity option: logging
+# changes to the [m[34m[103mbin[m[34mary log between backups.
+# log_[m[34m[103mbin[m
+[34m#
+# Remove leading # to set options mainly useful for reporting servers.
+# The server defaults are faster for transactions and fast SELECTs.
+# Adjust sizes as needed, experiment to find the optimal values.
+# join_buffer_size = 128M
+# sort_buffer_size = 2M
+# read_rnd_buffer_size = 2M[m
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+[34m# Disabling symbolic-links is recommended to prevent assorted security risks[m
+symbolic-links=0
+
+skip-grant-tables[24;63H26,1[10C50%[23;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H[mysqld]
+[96m#
+# Remove leading # and set to the amount of RAM for the most important data
+# cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
+# innodb_buffer_pool_size = 128M
+#
+# Remove leading # to turn on a very important data integrity option: logging
+# changes to the [m[30m[103mbin[m[96mary log between backups.
+# log_[m[30m[103mbin[m
+[96m#
+# Remove leading # to set options mainly useful for reporting servers.
+# The server defaults are faster for transactions and fast SELECTs.
+# Adjust sizes as needed, experiment to find the optimal values.
+# join_buffer_size = 128M
+# sort_buffer_size = 2M
+# read_rnd_buffer_size = 2M[m
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+[96m# Disabling symbolic-links is recommended to prevent assorted security risks[m
+symbolic-links=0
+
+skip-grant-tables[24;63H26,1[10C50%"/etc/my.cnf" 29L, 979C[23;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;64H5,0-1[22;1H[?12l[?25h[?25l[24;64H6,1  [23;1H[?12l[?25h[?25l
+[1m-- INSERT --[m[24;13H[K[24;63H26,1[10C50%[23;1H[?12l[?25h[?25l[96m#skip-grant-tables[m[24;66H2[23;2H[?12l[?25h[24;1H[K[23;1H[?25l[24;63H26,1[10C50%[23;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"/etc/my.cnf" 29L, 980C written
+[?1l>[?12l[?25h[?1049l]777;notify;Command completed;sudo vim /etc/my.cnf]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sudo servicem y[K[K[K mysqld restart
+Redirecting to /bin/systemctl restart  mysqld.service
+]777;notify;Command completed;sudo service mysqld restart]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ sud [Ko service mydw[K[Ksql stat[K[K[K[K[Kd status
+Redirecting to /bin/systemctl status  mysqld.service
+[?1h=[0;1;32m●[0m mysqld.service - MySQL Server[m
+   Loaded: loaded (/usr/lib/systemd/system/mysqld.service; enabled; vendor prese[m
+   Active: [0;1;32mactive (running)[0m since Tue 2016-10-18 11:49:56 EDT; 10s ago[m
+  Process: 12008 ExecStart=/usr/sbin/mysqld --daemonize --pid-file=/var/run/mysq[m
+  Process: 11986 ExecStartPre=/usr/bin/mysqld_pre_systemd (code=exited, status=0[m
+ Main PID: 12011 (mysqld)[m
+    Tasks: 27 (limit: 512)[m
+   CGroup: /system.slice/mysqld.service[m
+           └─12011 /usr/sbin/mysqld --daemonize --pid-file=/var/run/mysqld/mysql[m
+[m
+Oct 18 11:49:55 localhost.localdomain systemd[1]: Starting MySQL Server...[m
+Oct 18 11:49:56 localhost.localdomain systemd[1]: Started MySQL Server.[m
+[7mlines 1-12/12 (END)[27m[K[K[?1l>]777;notify;Command completed;sudo service mysqld status]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -r[Ku root -p r[K[Kroot
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 2
+Server version: 5.7.16 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';';[K';[K';[K';[K';[K';[K';[K';[Kp';a';s';s';w';o';r';d';';[K';[K';[K';[K';[K';[K';[K';[Km';y';p';a';s';s';';[K';[K';[K';[K_';p';a';s';s';
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> exituse mysql;[8Gexit[Kuse mysql;[8Gexit[K[Kexit[KCREATE USER 'username'@'localhost' IDENTIFIED BY 'password';';[K';[K';[K';[K';[K';[K';[K';[Km';y';_';p';a';s';';[K';[K';[K';[K';[K';[Kt';a';k';e';_';t';h';a';t';_';@';#';$';@';#';';[K';[K';[K';[K';[K$';!';@';';[K';[K';[K!';@';#';$';%';^';';[K^';';[K';[K';[K';[K';[K';[K!';@';#';$';%';^';
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> exituse mysql;[8Gexit[K[KCREATE USER 'username'@'localhost' IDENTIFIED BY 'password';';[K';[K';[K';[K';[K';[K';[K';[Kw';a';h';t';';[K';[K';[K';[KW';h';a';t';';[K';[K';[Ka';h';t';_';t';j';e';';[K';[Kh';e';_';!';@';#';$';
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> exituse mysql;[8Gexit[K[K^[[Bexit^[[B[K[K[KCREATE USER 'username'@'localhost' IDENTIFIED BY 'password';';[K';[K';[K';[K';[K';[K';[K';[K.';!';.';.';x';1';0';
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> VALIDATA[KE_PASSWORD_STREN[KGTH[K[K[KNGTH()')')a')s')')[Kb')c')
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALIDATE_PASSWORD_STRENGTH('abc')' at line 1
+mysql> ;[K;exituse mysql;[8Gexit[K;[K[KVALID[K[K[K[K[Kselect ca[K[Kvalidate_password_strength()')a)b)c)'));
++-----------------------------------+
+| validate_password_strength('abc') |
++-----------------------------------+
+|                                 0 |
++-----------------------------------+
+1 row in set (0.00 sec)
+
+mysql> ;exituse mysql;[8Gexit[K;[K[K;exituse mysql;[8Gexit[K;[Kshow tables[8Guse classicmodels[8Gshow databases;[K[8Guse classicmodels[8Gshow tables[K[8G;[Kexituse mysql;[8Gexit[K;[K[Kuse mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> CREATE USER 'username'@'localhost' IDENTIFIED BY 'take_that_!@#$%^';
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> use mysql;[8G;[Kuse mysql;[8G[Kselect validate_password_strength()')')t')a')k')e')_')t')h')a')t')_')!')@')#')$')%')^')
+    -> ;
++------------------------------------------------+
+| validate_password_strength('take_that_!@#$%^') |
++------------------------------------------------+
+|                                             50 |
++------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> ;use mysql;[8G;[K[Kselect validate_password_strength('take_that_!@#$%^')[Pa[1@Taake_t[Ph[1@Th[61G;
++------------------------------------------------+
+| validate_password_strength('Take_That_!@#$%^') |
++------------------------------------------------+
+|                                             50 |
++------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> ;use mysql;[8G;[Kexituse mysql;[8Gexit[K;[Kuse mysql;[8G;[Kselect validate_password_strength('take_that_!@#$%^')[Pa[1@Taake_t[Ph[1@Thhat_!@#$%^_')m')a')k')i')n')g')i')t')l')o')n')g')e')r')[8G[Ps[76G;
++---------------------------------------------------------------+
+| validate_password_strength('Take_That_!@#$%^_makingitlonger') |
++---------------------------------------------------------------+
+|                                                            50 |
++---------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> ;use mysql;[8G;[Kuse mysql;[8G;[K[Kselect validate_password_strength('Take_That_!@#$%^_makingitlonger');[Pm[P![PT
++------------------------------------------------------------+
+| validate_password_strength('TakeThat!@#$%^makingitlonger') |
++------------------------------------------------------------+
+|                                                         50 |
++------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> SHOW VARIABLES LIKE 'validate_password%';
++--------------------------------------+--------+
+| Variable_name                        | Value  |
++--------------------------------------+--------+
+| validate_password_check_user_name    | OFF    |
+| validate_password_dictionary_file    |        |
+| validate_password_length             | 8      |
+| validate_password_mixed_case_count   | 1      |
+| validate_password_number_count       | 1      |
+| validate_password_policy             | MEDIUM |
+| validate_password_special_char_count | 1      |
++--------------------------------------+--------+
+7 rows in set (0.00 sec)
+
+mysql> ;use mysql;[8G;[K[KSET calidate[K[K[K[K[K[K[K[K[K[K[Kset global validate_password_policy=LOW;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> ;use mysql;[8G;[K[KSHOW VARIABLES LIKE 'validate_password%';
++--------------------------------------+-------+
+| Variable_name                        | Value |
++--------------------------------------+-------+
+| validate_password_check_user_name    | OFF   |
+| validate_password_dictionary_file    |       |
+| validate_password_length             | 8     |
+| validate_password_mixed_case_count   | 1     |
+| validate_password_number_count       | 1     |
+| validate_password_policy             | LOW   |
+| validate_password_special_char_count | 1     |
++--------------------------------------+-------+
+7 rows in set (0.00 sec)
+
+mysql> ;use mysql;[8G;[Kuse mysql;[8G;[K[K;[KCREATE USER 'username'@'localhost' IDENTIFIED BY 'take_that_!@#$%^';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> exit
+Bye
+]777;notify;Command completed;mysql -u root -proot]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -u axxe -ptake_that_!@#$%^
+bash: !@#$%^: event not found
+[axxe@localhost ~]$ mysql -u root -proot[K[K[K[Kmysql -u root -prsudo service mysqld status[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pmysql -u root -pr[Kmysql -u axxe -p
+Enter password: 
+ERROR 1045 (28000): Access denied for user 'axxe'@'localhost' (using password: YES)
+]777;notify;Command completed;mysql -u axxe -p]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -r[Kuroot -proot
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 5
+Server version: 5.7.16 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> UPDATE user SET authentication_string = PASSWORD('myNuevoPassword') WHERE  User = 'root';';[K';[K';[K';[Ka';x';x';e';[A[80Grd[P'[80G  [PU[A[72G[P[79G UU[Ps[A[71G[P[80Gss[Pe[A[70G[P[80Gee[Pr[A[69G[P[80Grr[P [A[68G[P'[80G  [P=[A[67G[P[79G ==[P [A[66G[P'[80G  [P'[A[65G[P[79G ''[Pa[A[64G[P[80Gaa[Px[A[63G[P[80Gxxe';[K[A[62G[P[79Gxxxe';[K[A[61G[P[80Gee';[K[A[60G[P[80G'';[K[A[59G[P[80G;;[K[A[58G[1@a[80G' ;[A[59G[1@x[80Ge;';[A[60G[1@x[80Gx'e';[A[61G[1@e[80Gxe[Kxe';[A[62G[80Gxx
+ERROR 1046 (3D000): No database selected
+mysql> use mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> use mysql;[8Gexit[Kuse mysql;[8G[KUPDATE user SET authentication_string = PASSWORD('myNuevoPassword') WHERE  User = 'root';';[K';[K';[K';[Ka';x';x';e';[A[80G[P'[80G  [PU[A[72G[P[79G UU[Ps[A[71G[P[80Gss[Pe[A[70G[P[80Gee[Pr[A[69G[P[80Grr[P [A[68G[P'[80G  [P=[A[67G[P[79G ==[P [A[66G[P'[80G  [P'[A[65G[P[79G ''[Pa[A[64G[P[80Gaa[Px[A[63G[P[80Gxxe';[K[A[62G[P[79Gxxxe';[K[A[61G[P[80Gee';[K[A[60G[P[80G'';[K[A[59G[P[80G;;[K[A[58G[1@a[80G' ;[A[59G[1@x[80Ge;';[A[60G[1@x[80Gx'e';[A[61G[1@e[80Gxe[Kxe';[A[62G[80Gxx
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 1
+
+mysql> exit
+Bye
+]777;notify;Command completed;mysql -uroot -proot]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -uaxxe -paxxe
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1045 (28000): Access denied for user 'axxe'@'localhost' (using password: YES)
+]777;notify;Command completed;mysql -uaxxe -paxxe]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -uaxxe -paxxe[1@ 
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1045 (28000): Access denied for user 'axxe'@'localhost' (using password: YES)
+]777;notify;Command completed;mysql -u axxe -paxxe]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -u axxe -paxxe[1P[C[C[C[C[C[C[C[C[C[C[Croot -proot[3P axxe -proot -proot
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 5.7.16 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create [K[K[K[K[K[KSET GLOBAL validate_password_length = 5;5;[K4;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> SET GLOBAL validate_password_number_count = 0;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> SET GLOBAL validate_password_mixed_case_count = 0;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> SET GLOBAL validate_password_special_char_count = 0;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> set global validate_password_policy=LOW;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> SHOW VARIABLES LIKE 'validate_password%';
++--------------------------------------+-------+
+| Variable_name                        | Value |
++--------------------------------------+-------+
+| validate_password_check_user_name    | OFF   |
+| validate_password_dictionary_file    |       |
+| validate_password_length             | 4     |
+| validate_password_mixed_case_count   | 0     |
+| validate_password_number_count       | 0     |
+| validate_password_policy             | LOW   |
+| validate_password_special_char_count | 0     |
++--------------------------------------+-------+
+7 rows in set (0.01 sec)
+
+mysql> UPDATE user SET authentication_string = PASSWORD('myNuevoPassword') WHERE  User = 'root';';[K';[K';[K';[Ka';x';x';e';[A[80G[P'[80G  [PU[A[72G[P[79G UU[Ps[A[71G[P[80Gss[Pe[A[70G[P[80Gee[Pr[A[69G[P[80Grr[P [A[68G[P'[80G  [P=[A[67G[P[79G ==[P [A[66G[P'[80G  [P'[A[65G[P[79G ''[Pa[A[64G[P[80Gaa[Px[A[63G[P[80Gxxe';[K[A[62G[P[79Gxxxe';[K[A[61G[P[80Gee';[K[A[60G[P[80G'';[K[A[59G[P[80G;;[K[A[58G[1@a[80G' ;[A[59G[1@x[80Ge;';[A[60G[1@x[80Gx'e';[A[61G[1@e[80Gxe[Kxe';[A[62G[80Gxx
+ERROR 1046 (3D000): No database selected
+mysql> use mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> UPDATE user SET authentication_string = PASSWORD('myNuevoPassword') WHERE  User = 'root';';[K';[K';[K';[Km';';[Ka';x';x';e';[A[80G[P'[80G  [PU[A[72G[P[79G UU[Ps[A[71G[P[80Gss[Pe[A[70G[P[80Gee[Pr[A[69G[P[80Grr[P [A[68G[P'[80G  [P=[A[67G[P[79G ==[P [A[66G[P'[80G  [P'[A[65G[P[79G ''[Pa[A[64G[P[80Gaa[Px[A[63G[P[80Gxxe';[K[A[62G[P[79Gxxxe';[K[A[61G[P[80Gee';[K[A[60G[P[80G'';[K[A[59G[P[80G;;[K[A[58G[1@a[80G' ;[A[59G[1@x[80Ge;';[A[60G[1@x[80Gx'e';[A[61G[1@e[80Gxe[Kxe';[A[62G[80Gxx
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+Rows matched: 0  Changed: 0  Warnings: 1
+
+mysql> exit
+Bye
+]777;notify;Command completed;mysql -uroot -proot]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -u axxe -p axxe
+Enter password: 
+ERROR 1045 (28000): Access denied for user 'axxe'@'localhost' (using password: YES)
+]777;notify;Command completed;mysql -u axxe -p axxe]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -u axxe -p axxe[K[K[K[K[K
+Enter password: 
+ERROR 1045 (28000): Access denied for user 'axxe'@'localhost' (using password: YES)
+]777;notify;Command completed;mysql -u axxe -p]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -uroot -p root
+Enter password: 
+ERROR 1049 (42000): Unknown database 'root'
+]777;notify;Command completed;mysql -uroot -p root]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql -uroot -p root[K[K[K[K[Kroot
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 12
+Server version: 5.7.16 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create user 'axxe'@'localhost'identifir[Ke[K[K[K[K[K[K[K[K[K identified by 'axxe';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> exit
+Bye
+]777;notify;Command completed;mysql -uroot -proot]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ mysql u=[K[K-uaxxe -paxxe
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 13
+Server version: 5.7.16 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> exit
+Bye
+]777;notify;Command completed;mysql -uaxxe -paxxe]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ exit
+exit
+There are stopped jobs.
+]777;notify;Command completed;exit]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ ll
+total 401560
+drwxrwxr-x.   3 axxe axxe      4096 Nov 21  2015 [0m[38;5;33mArduino[0m
+drwxrwxr-x.   2 axxe axxe      4096 Sep 24 15:07 [38;5;33mbin[0m
+-rw-r--r--.   1 axxe axxe       995 Apr 19 08:14 cms.txt
+drwxrwxr-x.   5 axxe axxe      4096 Mar 10  2016 [38;5;33mCytoscapeConfiguration[0m
+drwxr-xr-x.   2 axxe axxe      4096 Sep 25 11:17 [38;5;33mDesktop[0m
+drwxr-xr-x.  23 axxe axxe      4096 Oct 16 10:11 [38;5;33mDocuments[0m
+drwxr-xr-x.  11 axxe axxe     20480 Oct 17 17:42 [38;5;33mDownloads[0m
+drwx------.  14 axxe axxe      4096 Oct  6 16:59 [38;5;33mDropbox[0m
+-rw-r--r--.   1 axxe axxe  11446379 Dec 31  2015 [38;5;9mEHR_Viz.tar.gz[0m
+-rw-rw-r--.   1 axxe axxe     10730 Oct  7 13:37 [38;5;9mintellinuxgraphics-repo.noarch.rpm[0m
+-rw-rw-r--.   1 axxe axxe      4600 Sep  6 18:49 iris.csv
+-rw-rw-r--.   1 axxe axxe    103663 Oct  3 16:39 java_error_in_PYCHARM_5167.log
+-rw-r--r--.   1 root root  39460230 Mar 31  2016 [38;5;9mJMatis.jar[0m
+drwxrwxr-x.   3 axxe axxe      4096 Dec  6  2015 [38;5;33mknowtice[0m
+drwxr-xr-x.   9 axxe axxe      4096 Mar 29  2016 [38;5;33mLibrary[0m
+-rw-rw-r--.   1 axxe axxe    126976 Oct 18 12:05 logfile
+-rw-rw-r--.   1 axxe axxe       456 Mar 31  2016 mp.py
+drwxr-xr-x.   3 axxe axxe      4096 Jan 22  2016 [38;5;33mMusic[0m
+-rw-rw-r--.   1 axxe axxe        60 Feb 12  2016 mysql-init
+drwxrwxr-x.  12 axxe axxe      4096 Mar  4  2016 [38;5;33mnltk_data[0m
+drwxrwxr-x. 508 axxe axxe     20480 Sep 10 14:50 [38;5;33mnode_modules[0m
+drwxrwxrwx.  13 axxe axxe      4096 Sep 24 15:07 [48;5;10;38;5;21mopt[0m
+-rw-r--r--.   1 root root 359806457 Apr  8  2016 out.graphml
+-rw-rw-r--.   1 axxe axxe        89 Nov  3  2015 pass
+drwxr-xr-x.   2 axxe axxe      4096 Sep 18 16:33 [38;5;33mPictures[0m
+drwxr-xr-x.   2 axxe axxe      4096 Oct 28  2015 [38;5;33mPublic[0m
+drwxrwxr-x.   3 axxe axxe      4096 Feb  8  2016 [38;5;33mR[0m
+drwxr-xr-x.   2 axxe axxe      4096 Oct 28  2015 [38;5;33mTemplates[0m
+-rwxrwxrwx.   1 axxe axxe        25 Oct 31  2015 [38;5;40mumbc.sh[0m
+-rw-rw-r--.   1 axxe axxe      2124 Sep  6 15:19 Untitled.ipynb
+drwxr-xr-x.   2 axxe axxe      4096 Nov  8  2015 [38;5;33mVideos[0m
+drwxrwxr-x.   2 axxe axxe      4096 Oct 17 12:43 [38;5;33m'VirtualBox VMs'[0m
+drwxrwxr-x.   7 axxe axxe      4096 Dec 31  2015 [38;5;33mworkspace[0m
+]777;notify;Command completed;ll]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ exit
+exit
+There are stopped jobs.
+]777;notify;Command completed;exit]0;axxe@localhost:~]7;file://localhost.localdomain/home/axxe[axxe@localhost ~]$ exit
+exit
+
+Script done on Tue 18 Oct 2016 02:58:45 PM EDT
